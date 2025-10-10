@@ -19,7 +19,7 @@
 
 #building-each-intro {
 
-  height: 90vh;
+  height: 85vh;
   overflow-y: hidden;
 
 }
@@ -31,7 +31,7 @@
 
 #img-landing {
   height: 100%;
-  max-height: 65vh;
+  max-height: 68vh;
   background-image: url(../images/buildings-img/project-2/project2-2.jpg);
   background-position: center;
   background-size: cover;
