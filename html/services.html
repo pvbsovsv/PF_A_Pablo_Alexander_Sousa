@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../images/favicon/wlx.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="../css/style-base.css" />
+    <link rel="stylesheet" href="../css/style-services.css" />
+    <title>WLX | Our Services</title>
+  </head>
+  <body>
+    <!--  Navbar -->
+    <header id="navbar">
+      <nav
+        class="container-fluid bg-altdark p-4 d-flex flex-column flex-wrap justify-content-between"
+      >
+        <div class="row d-flex align-items-center justify-content-between">
+          <h1 class="col-10 m-0">Workshop LX</h1>
+          <div class="col-2 d-flex justify-content-end">
+            <button class="btn btn-altdark btn-sm ms-auto">Close</button>
+          </div>
+        </div>
+        <div id="nav-links" class="row d-flex">
+          <ul class="list-inline d-flex flex-column">
+            <li class="list-inline-item display-3 d-flex flex-column">
+              <a class="nav-a1" href="./index.html">Home</a>
+              <a class="nav-a2" href="./index.html">Home</a>
+            </li>
+            <li class="list-inline-item display-3 d-flex flex-column">
+              <a class="nav-a1" href="./buildings.html">buildings</a>
+              <a class="nav-a2" href="./buildings.html">buildings</a>
+            </li>
+            <li class="list-inline-item display-3 d-flex flex-column">
+              <a class="nav-a1" href="#">about</a>
+              <a class="nav-a2" href="#">about</a>
+            </li>
+            <li class="list-inline-item display-3 d-flex flex-column">
+              <a class="nav-a1" href="#">Method</a>
+              <a class="nav-a2" href="#">Method</a>
+            </li>
+            <li class="list-inline-item display-3 d-flex flex-column">
+              <a class="nav-a1" href="./services.html">Services</a>
+              <a class="nav-a2" href="./services.html">Services</a>
+            </li>
+          </ul>
+        </div>
+        <div id="nav-policy" class="row d-flex">
+          <ul class="list-inline d-flex flex-column">
+            <li class="list-inline-item d-flex flex-column">
+              <a class="nav-a3" href="">Privacy Policy</a>
+              <a class="nav-a4" href="">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item d-flex flex-column">
+              <a class="nav-a3" href="">Terms of Service</a>
+              <a class="nav-a4" href="">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- hidden button containers -->
+      <div class="container-btns d-flex justify-content-end p-4">
+        <button
+          id="hiddenBtnContact"
+          class="btn text-uppercase btn-altdark btn-sm"
+        >
+          Get in touch
+        </button>
+        <button
+          id="hiddenBtnMenu"
+          class="btn btn-altdark btn-sm text-uppercase mx-2"
+        >
+          Menu
+        </button>
+      </div>
+      <!-- Contact form -->
+      <div id="contact-form-container" class="">
+        <div
+          id="contact-form"
+          class="bg-altdark p-4 d-flex flex-column justify-content-between"
+        >
+          <div class="row align-items-center">
+            <div class="col-10">
+              <h2 class="display-4">Project enquiry</h2>
+            </div>
+            <div class="col-2 d-flex justify-content-end">
+              <button class="btn btn-sm ms-auto close-button-form">
+                Close
+              </button>
+            </div>
+            <div class="row my-3">
+              <div class="col-6">
+                <p>
+                  To begin, please tell us a bit about your project. This helps
+                  us ensure our building services align with your needs. Once
+                  we’ve reviewed the details, our team will be in touch within 5
+                  business days to outline the next steps.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <form name="contactForm" action="" method="post">
+              <fieldset>
+                <legend>Your Details</legend>
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                />
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email Address"
+                />
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="921 234 567"
+                />
+              </fieldset>
+              <fieldset>
+                <legend>Tells us about your project</legend>
+                <textarea
+                  name="project"
+                  id="project-outline-form"
+                  placeholder="What's your idea?"
+                ></textarea>
+              </fieldset>
+            </form>
+            <div class="mt-3 d-flex justify-content-end">
+              <button id="form-submitBtn" class="btn btn-altlight">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Top menu -->
+      <div
+        id="top-nav"
+        class="container-fluid p-3 d-flex flex-column justify-content-center align-items-around"
+      >
+        <div
+          id="top-menu"
+          class="row d-flex flex-wrap justify-content-between align-items-center"
+        >
+          <div
+            class="col-5 col-sm-5 col-md-4 col-lg-4 my-2 d-flex align-items-center flex-wrap"
+          >
+            <a href="./index.html">
+              <h1 class="m-0 display-6 display-md-4">Workshop LX</h1>
+            </a>
+            <a href="./index.html">
+              <h1 class="m-0 align-self-center display-5">W-LX</h1>
+            </a>
+          </div>
+          <div
+            class="col-3 col-sm-1 col-lg-5 my-2 d-flex justify-content-center align-items-center"
+          >
+            <ul
+              id="top-nav-links"
+              class="m-0 list-inline d-flex justify-content-between flex-wrap"
+            >
+              <li class="list-inline-item p-0 d-flex flex-column">
+                <a href="./buildings.html" class="top-a1">buildings</a>
+                <a href="./buildings.html" class="top-a2">buildings</a>
+              </li>
+              <li class="list-inline-item p-02 d-flex flex-column">
+                <a href="#" class="top-a1">about</a>
+                <a href="#" class="top-a2">about</a>
+              </li>
+              <li class="list-inline-item p-0 d-flex flex-column">
+                <a href="#" class="top-a1">method</a>
+                <a href="#" class="top-a2">method</a>
+              </li>
+              <li class="list-inline-item p-0 d-flex flex-column">
+                <a href="./services.html" class="top-a1">services</a>
+                <a href="./services.html" class="top-a2">services</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-2 col-sm-4 col-md-3 col-lg-3 my-2 d-flex justify-content-center align-items-center ms-auto"
+          >
+            <button class="btn contactBtn text-uppercase btn-altdark btn-sm">
+              Get in touch
+            </button>
+            <button
+              class="btn navBtn btn-altdark menu-btn btn-sm text-uppercase mx-2"
+            >
+              Menu
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Services Intro  -->
+
+      <section id="services-intro" class="container-md d-flex flex-column justify-content-around my-2">
+            <div id="img-landing" class="row"></div>
+            <div class="row d-flex flex-wrap align-items-top justify-content-between">
+              <h3 class="col-12 col-md-6 text-start display-6 my-3">
+                From living spaces to landmark builds, our expertise covers every corner of construction.
+              </h3>
+              <p class="col-12 col-md-6 text-md-end fs-6 my-3">
+                Our broad skillset allows us to seamlessly deliver projects across multiple sectors. Whether it’s a home, workplace, or community space, we bring the same precision, innovation, and care to every build.
+              </p>
+            </div>
+      </section>
+      <div id="parallax-services-container">
+        <div id="parallax-services" class="container-fluid ">
+          <div class="col-6 col-md-7 p-5 m-3 text-capitalize d-flex justify-content-between flex-column">
+            <h2 class="display-2">We Build It All</h2>
+            <h2 class="display-2 text-end">From the ground up</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Areas of service -->
+      <section id="areas-service" class="container-fluid my-5">
+        <div class="row d-flex flex-row align-items-center justify-content-between my-5 flex-wrap">
+          <div class="col-12 col-xl-6 px-5 order-2 order-xl-1">
+            <h2 class="display-6 my-3 areaTitle">Residential</h2>
+            <p class="fs-5 text-body-secondary">From new home builds to thoughtful renovations, we bring expertise and care to every residential project. Whether it’s creating extensions, transforming living spaces, or designing outdoor areas like decks and pergolas, our team is dedicated to building homes that reflect your lifestyle and stand the test of time</p>
+            <ul class=" d-flex flex-column fs-5 text-body-secondary">
+              <li class="mb-2">New home construction</li>
+              <li class="mb-2">Residential buildings</li>
+              <li class="mb-2">Home extensions & additions</li>
+              <li class="mb-2">Renovations & remodeling</li>
+              <li class="mb-2">Outdoor living spaces (decks, patios, pergolas)</li>
+            </ul>
+          </div>
+          <div class="col-12 col-xl-6 mx-0 px-0 order-1 order-xl-2 area-image"><img src="../images/services-img/builders-2.jpg" alt="" class="img-fluid"></div>
+        </div>
+        <div class="row d-flex flex-row align-items-center justify-content-between my-5 flex-wrap">
+          <div class="col-12 col-xl-6 mx-0 px-0 order-1 order-xl-1 area-image" > <img src="../images/services-img/builders-3.jpg" alt="" class="img-fluid"></div>
+          <div class="col-12 col-xl-6 px-5 order-2 order-xl-2">
+            <h2 class="display-6 my-3 areaTitle">Commercial & Industrial </h2>
+            <p class="fs-5 text-body-secondary">Our broad skillset allows us to seamlessly deliver projects across multiple sectors. Whether it’s a home, workplace, or community space, we bring the same precision, innovation, and care to every build.</p>
+            <ul class=" d-flex flex-column fs-5 text-body-secondary">
+              <li class="mb-2">Office building construction</li>
+              <li class="mb-2">Restaurants & hospitality spaces</li>
+              <li class="mb-2">Museums & Community Buildings</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="row d-flex flex-row align-items-center justify-content-between my-5 flex-wrap">
+          <div class="col-12 col-xl-6 px-5 order-2 order-xl-1 ">
+            <h2 class="display-6 my-3 areaTitle">Sustainability</h2>
+            <p class="fs-5 text-body-secondary">Sustainable design is at the heart of what we do. From energy-efficient retrofits to smart home integration, we create spaces that reduce environmental impact while enhancing comfort, functionality, and style.</p>
+            <ul class=" d-flex flex-column fs-5 text-body-secondary">
+              <li class="mb-2">Sustainable & eco-friendly building</li>
+              <li class="mb-2">Smart home integration</li>
+              <li class="mb-2">Energy-efficient retrofits</li>
+            </ul>
+          </div>
+          <div class="col-12 col-xl-6 mx-0 px-0 order-1 order-xl-2 area-image" > <img src="../images/services-img/builders-4.jpg" alt="" class="img-fluid"></div>
+        </div>
+        <div class="row d-flex flex-row align-items-center justify-content-between my-5 flex-wrap">
+          <div class="col-12 col-xl-6 mx-0 px-0 area-image" > <img src="../images/services-img/builders-5.jpg" alt="" class="img-fluid"></div>
+          <div class="col-12 col-xl-6 px-5">
+            <h2 class="display-6 my-3 areaTitle">Project Support</h2>
+            <p class="fs-5 text-body-secondary">Building can feel overwhelming, but we make the process seamless. Our team manages everything — planning, approvals, engineering, and ongoing maintenance — so you can focus on the bigger picture while we take care of the details.</p>
+            <ul class=" d-flex flex-column fs-5 text-body-secondary">
+              <li class="mb-2">Design & architectural planning</li>
+              <li class="mb-2">Engineering & structural assessments</li>
+              <li class="mb-2">Project Management</li>
+              <li class="mb-2">Council approvals & permits</li>
+              <li class="mb-2">Site preparation & excavation</li>
+              <li class="mb-2">Ongoing property maintenance</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div
+        class="container-fluid d-flex flex-column py-3 border-top justify-content-between mt-5"
+      >
+        <div class="row">
+          <div class="col d-flex flex-column align-items-center">
+            <img
+              src="../images/otisAv.jpg"
+              alt="A modern Sustainable Building"
+              class="ft-picture img-fluid"
+            />
+            <p class="display-1 fw-semibold mt-3">W-LX</p>
+          </div>
+          <div class="col text-lowercase d-flex justify-content-center">
+            <div id="footer-navigation">
+              <h4 class="">Navigation</h4>
+              <ul
+                class="list-inline d-flex flex-column text-uppercase display-5"
+              >
+                <li class="list-inline-item d-flex flex-column">
+                  <a href="./index.html" class="footer-a1">Home</a>
+                  <a href="./index.html" class="footer-a2">Home</a>
+                </li>
+                <li class="list-inline-item d-flex flex-column">
+                  <a href="./buildings.html" class="footer-a1">buildings</a>
+                  <a href="./buildings.html" class="footer-a2">buildings</a>
+                </li>
+                <li class="list-inline-item d-flex flex-column">
+                  <a href="#" class="footer-a1">about</a>
+                  <a href="#" class="footer-a2">about</a>
+                </li>
+                <li class="list-inline-item d-flex flex-column">
+                  <a href="#" class="footer-a1">Method</a>
+                  <a href="#" class="footer-a2">Method</a>
+                </li>
+                <li class="list-inline-item d-flex flex-column">
+                  <a href="./services.html" class="footer-a1">Services</a>
+                  <a href="./services.html" class="footer-a2">Services</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col-8 mb-4">
+              <h4>commitment</h4>
+              <p class="fs-6">
+                We’re proud to build responsibly — always meeting regulations
+                while keeping sustainability at the heart of what we do. Our
+                commitment to the environment guides every project, ensuring
+                spaces that last and respect the world around us.
+              </p>
+            </div>
+            <h4 class="text-uppercase">Info</h4>
+            <address class="">
+              <div class="d-flex align-items-center">
+                <h5 class="fs-6 m-2 p-0 fw-semibold text-lowercase">a:</h5>
+                <p class="fs-6 m-0 p-0">3 Av. Miguel Bombardal, Lisboa</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <h5 class="fs-6 m-2 p-0 fw-semibold text-lowercase">e:</h5>
+                <p class="fs-6 m-0 p-0">
+                  <a href="mailto:theworkshop.lx@gmail.com"
+                    >theworkshop.lx@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div class="d-flex align-items-center">
+                <h5 class="fs-6 m-2 p-0 fw-semibold text-lowercase">p:</h5>
+                <p class="fs-6 m-0 p-0">
+                  <a href="tel:+351921418848">+351921418848</a>
+                </p>
+              </div>
+              <div class="d-flex align-items-center">
+                <h5 class="fs-6 m-2 p-0 fw-semibold text-lowercase">h:</h5>
+                <p class="fs-6 m-0 p-0">Monday to Friday, 9:00am - 18:00pm</p>
+              </div>
+            </address>
+          </div>
+        </div>
+        <div
+          class="row d-flex justify-content-between text-uppercase fw-semibold"
+        >
+          <div class="col d-flex flex-column justify-content-end">
+            <p class="p-0 m-0">&copy; 2025 Workshop LX</p>
+            <p id="dateTime" class="p-0 m-0">
+              here goes date time, we are open / closed
+            </p>
+          </div>
+          <div class="col d-flex flex-column justify-content-end">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+          </div>
+          <div class="col d-flex flex-column justify-content-end">
+            <a href="https://www.instagram.com/">instagram</a>
+            <a href="https://www.facebook.com/">facebook</a>
+          </div>
+          <div class="col d-flex flex-column justify-content-end">
+            Crafted by pvbsovsv
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- gsap -->
+    <script src="../js/gsap.min.js"></script>
+    <script src="../js/ScrollTrigger.min.js"></script>
+    <!-- my scripts (base always first) -->
+    <script src="../js/base.js"></script>
+    <script src="../js/services.js"></script>
+  </body>
+</html>

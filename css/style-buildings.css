@@ -1,0 +1,57 @@
+
+
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+#buildings-intro {
+
+  height: 75vh !important;
+
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* bootstrap toma conta disto */
+}
+
+/* SECTION >  buildings intro*/
+
+#buildings-intro {
+
+  height: 90vh;
+  overflow-y: hidden;
+
+}
+
+#buildings-hero {
+  height: 100%;
+  width: 100%;
+}
+
+#img-landing {
+  height: 100%;
+  max-height: 65vh;
+  background-image: url(../images/buildings-img/buildings-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+/* SECTION >> GRID */
+
+#buildings-gallery{
+  overflow-y: hidden;
+}
+
+.build-category{
+    color: #858585;
+}
+
+.build-title{
+    color: #080807;
+}

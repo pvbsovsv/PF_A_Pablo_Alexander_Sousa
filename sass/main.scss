@@ -1,0 +1,24 @@
+//importar scss funçoes
+
+@import "../node_modules/bootstrap/scss/functions";
+
+//Import variaveis e maps p definir $theme-colors do bootstrap
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps"; 
+
+// Palete cores da marca, vou usar a palavra "alt" para as identificar facilmente.
+$brand-colors: (
+  "altlightgrey": #a1a1a1,
+  "altgrey": #858585,
+  "altmid": #252525,
+  "altdark": #080807
+);
+
+// fazemos merge dos dois mapas ($theme-colors é o mapa og do bootstrap)
+$theme-colors: map-merge($theme-colors, $brand-colors);
+
+//para todas as utilities herdarem esta paleta
+$utilities-bg-colors: map-merge($utilities-bg-colors, $brand-colors);
+
+// importamos bootstrap para applicar
+@import "../node_modules/bootstrap/scss/bootstrap";

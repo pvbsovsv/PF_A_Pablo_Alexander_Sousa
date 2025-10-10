@@ -1,0 +1,170 @@
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+
+    #intro-about p {
+  font-size: 0.9rem !important;
+}
+
+
+  #testimonial p.testimonial-text {
+    font-size: 0.9rem !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px)  {
+  
+  #testimonial p.testimonial-text {
+    font-size: 1rem !important;
+  }
+
+
+
+  #intro-about p {
+  font-size: 1.2rem !important;
+}
+
+
+
+
+}
+
+/* SECTION > Hero Landing */
+
+#hero-container {
+  overflow: hidden;
+  height: 100vh;
+}
+
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("../images/hero-house.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  filter: brightness(1);
+  height: 100%;
+}
+
+#hero img {
+  width: 100px;
+}
+
+#hero-menu {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* mobile */
+#hero-menu h1.display-5 {
+  display: none;
+}
+
+#hero-menu div > ul li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 550;
+  display: inline-block;
+  font-size: 16px;
+  padding-top: 8px;
+  overflow: hidden;
+}
+#hero-menu div > ul li > a::after {
+  content: ",";
+}
+
+#hero-menu div > ul li {
+  overflow: hidden;
+  max-height: 58px;
+}
+
+#hero-menu ul {
+  overflow: hidden;
+  max-height: 22px;
+  min-height: 22px;
+}
+
+.hero-a2 {
+  position: relative;
+  top: 0px;
+}
+
+#hero-featured {
+  font-size: 14px;
+}
+
+#hero-featured span:nth-of-type(4) {
+  text-underline-offset: 4px;
+}
+
+#hero .btn {
+  z-index: 9998;
+}
+
+.container-btns {
+  position: fixed;
+  top: 10px;
+  right: 0px;
+  overflow: hidden;
+  z-index: 9998;
+}
+
+/* SECTION >  intro to company */
+
+#company-intro {
+  height: auto;
+  color: #080807;
+}
+
+#company-intro div {
+  overflow: hidden;
+  color: #080807;
+}
+
+#intro-about p {
+  font-size: 1.5rem;
+}
+
+.text-intro img {
+  width: auto;
+  max-height: 750px;
+}
+
+/* SECTION > OUR METHOD */
+
+#our-method {
+  overflow: hidden;
+}
+
+.custom-ol {
+  counter-reset: section;
+  list-style: none ;
+}
+
+.custom-ol li {
+  counter-increment: section ;
+  color: #080807;
+  font-weight: lighter;
+}
+
+.custom-ol li::before {
+  content: "(0" counter(section) ")  ";
+  font-weight: 500;
+  font-size: 20px;
+  color: #535353;
+}
+
+
+
+
+/* SECTION TESTIMONIAL */
+
+  #testimonial p.testimonial-text {
+    font-size: 1.1rem;
+  }

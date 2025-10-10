@@ -1,0 +1,81 @@
+
+
+
+
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+#services-intro {
+
+  height: 75vh !important;
+
+}
+
+#img-landing {
+  height: 100%;
+
+}
+
+#parallax-services-container {
+  height: 50vh !important;
+}
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* bootstrap toma conta disto */
+}
+
+
+
+/* SECTION >  intro services */
+
+#services-intro {
+
+  height: 90vh;
+
+}
+
+#img-landing {
+  height: 100%;
+  max-height: 65vh;
+  background-image: url(../images/services-img/beach-house.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+/* paralllax img */
+
+#parallax-services-container {
+  overflow: hidden;
+  color: white;
+  height: 90vh;
+}
+
+#parallax-services {
+  height: 100%;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),  url(../images/services-img/builders-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#parallax-services div {
+  height: 100%;
+  width: 100%;
+
+}
+
+
+/* SECTION > Area Services */
+
+
+#areas-service img {
+  max-width: 100%;
+  height: auto;
+}
+
+#areas-service div{
+  overflow: hidden;
+}
