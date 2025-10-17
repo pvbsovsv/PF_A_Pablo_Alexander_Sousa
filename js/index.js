@@ -485,78 +485,7 @@ function indexDesktop() {
     },
   });
 
-   /* 
-
-//SECTION > 5 pillars / Philosophy
-  
-  gsap.set(".pillar-text", { y: "-100%", opacity: 1 });
-  gsap.set(".pillar-number", { y: "100%", opacity: 1 });
-
-
-
-
-  gsap.to(".pillar-number", {
-    y: 0,
-    opacity: 1,
-    stagger: 0.6,
-    scrollTrigger: {
-      trigger: "#our-philo",
-      start: "top center",
-      end: "bottom bottom",
-      scrub: 1,
-    },
-  });
-  gsap.to(".pillar-text", {
-    y: 0,
-    opacity: 1,
-    stagger: 0.6,
-    scrollTrigger: {
-      trigger: "#our-philo",
-      start: "top center",
-      end: "bottom bottom",
-      scrub: 1,
-    },
-  }); 
-
- //animaçao numeros isto vai para about page com os 5 pillars
-
-  gsap.set(".pillar-text", { y: "130%", opacity: 0 });
-  gsap.set(".pillar-number", { y: "90%", opacity: 0 });
-  gsap.set(".pillar-title", { x: "70%", opacity: 0 });
-
-  gsap.to(".pillar-title", {
-    x: 0,
-    opacity: 1,
-    scrollTrigger: {
-      trigger: "#our-philo",
-      start: "top bottom",
-      end: "-50px top",
-      scrub: 1,
-    },
-  });
-
-  gsap.to(".pillar-number", {
-    y: 0,
-    opacity: 1,
-    stagger: 0.6,
-    scrollTrigger: {
-      trigger: "#our-philo",
-      start: "top center",
-      end: "bottom bottom",
-      scrub: 1,
-    },
-  });
-  gsap.to(".pillar-text", {
-    y: 0,
-    opacity: 1,
-    stagger: 0.6,
-    scrollTrigger: {
-      trigger: "#our-philo",
-      start: "top center",
-      end: "bottom bottom",
-      scrub: 1,
-    },
-  }); */
+ 
 
 
   //SECTION > METHOD
