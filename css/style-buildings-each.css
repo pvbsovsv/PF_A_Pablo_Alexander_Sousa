@@ -13,4 +13,33 @@
 
 
 
+/* section Building intro */
+
+#top-nav a {
+  color: white !important;
+}
+
+
+#building-intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/buildings-img/project-7/project7-1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 180vh;
+}
+
+#building-intro article:first-of-type {
+  height: 50%;
+}
+#building-intro article:first-of-type p {
+  font-size: 16px;
+}
+#building-intro article h1 {
+  font-size: 106px;
+}
+#building-intro article:last-of-type {
+  height: 45%;
+  margin-top: 100px;
+}
+
 

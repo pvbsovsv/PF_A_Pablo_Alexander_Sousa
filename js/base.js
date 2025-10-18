@@ -32,9 +32,9 @@ function mobile() {
 
   //Botoes e links para o menu / toggle
   const navButton = document.querySelector(".navBtn");
-  const navButtonClose = document.querySelector("header button.btn");
-  const nav = document.querySelector("header");
-  const linksNav = document.querySelectorAll("header nav a");
+  const navButtonClose = document.querySelector("#navbar button.btn");
+  const nav = document.querySelector("#navbar");
+  const linksNav = document.querySelectorAll("#navbar nav a");
 
   //Colocamos o nav fora de vista - "-100%"" para responsiveness
   gsap.set(nav, {
@@ -192,9 +192,9 @@ function desktop() {
   //Botoes e links para o menu / toggle
   const navButton = document.querySelector(".navBtn");
   const navButtonContact = document.querySelector(".contactBtn");
-  const navButtonClose = document.querySelector("header button.btn");
-  const nav = document.querySelector("header");
-  const linksNav = document.querySelectorAll("header nav a");
+  const navButtonClose = document.querySelector("#navbar button.btn");
+  const nav = document.querySelector("#navbar");
+  const linksNav = document.querySelectorAll("#navbar nav a");
 
   //Colocamos o nav fora de vista - "-100%"" para responsiveness
   gsap.set(nav, {
