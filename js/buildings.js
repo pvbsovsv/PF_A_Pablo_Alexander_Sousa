@@ -60,9 +60,9 @@ gsap.to("#buildings-hero",  {
 const galleryProject = document.querySelectorAll(".project-pack")
 
 
-gsap.set(galleryProject, {opacity:0.5, y:"-10%"})
+gsap.set(galleryProject, {y:"-10%"})
 
-gsap.to(galleryProject, {opacity:1,y:0,
+gsap.to(galleryProject, {y:"10%",
   scrollTrigger:{
     trigger:"#buildings-intro",
     start: "center 200px",

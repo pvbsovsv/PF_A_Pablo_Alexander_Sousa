@@ -37,6 +37,26 @@ function buildingsEachDesktop() {
   console.log("desktop version loaded.");
 
 
+//Section >> EACH BUILDING INTRO >  Parallax intro
+
+
+
+
+gsap.to("#building-intro", {y:"30%",
+ scrollTrigger:{
+   trigger: "#building-intro",
+   start: "top top",
+   endTrigger: "building-gallery",
+   end: "center center", 
+   scrub: 2,
+   ease: "none",
+   markers: true,
+ }
+})  
+
+
+
+
 
 }
 
