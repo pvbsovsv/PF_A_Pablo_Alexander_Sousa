@@ -28,18 +28,29 @@
   height: 180vh;
 }
 
-#building-intro article:first-of-type {
+#building-intro section:first-of-type {
   height: 50%;
 }
-#building-intro article:first-of-type p {
+#building-intro section:first-of-type p {
   font-size: 16px;
+  text-transform: uppercase;
 }
-#building-intro article h1 {
+#building-intro section h1 {
   font-size: 106px;
 }
-#building-intro article:last-of-type {
+#building-intro section:last-of-type {
   height: 45%;
   margin-top: 100px;
+}
+
+#building-intro section:last-of-type h2{
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(224, 224, 224, 0.869);
+}
+#building-intro section:last-of-type p{
+  font-size: 20px;
+  font-weight: 500;
 }
 
 
