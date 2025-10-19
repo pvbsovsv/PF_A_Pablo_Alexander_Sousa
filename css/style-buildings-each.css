@@ -37,6 +37,10 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/buildings-img/project-6/project6-1.jpg);
 
 }
+#building-winston-chalet > #building-intro{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/buildings-img/project-8/project8-5.jpg);
+
+}
 
 
 
@@ -83,6 +87,14 @@
 #next-project p {
   text-transform: uppercase;
   font-size: 16px;
+  font-weight: bold;
+}
+
+#next-project p::after{
+  content: ")";
+}
+#next-project p::before{
+  content: "(";
 }
 
 #next-project h3 {
