@@ -33,6 +33,10 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/buildings-img/project-3/project3-2.jpg);
 
 }
+#building-omega-house > #building-intro{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/buildings-img/project-6/project6-1.jpg);
+
+}
 
 
 
@@ -43,6 +47,10 @@
   background-size: cover;
   color: white;
   height: 180vh;
+}
+
+#building-intro h1 {
+  text-transform: capitalize;
 }
 
 #building-intro section:first-of-type {
@@ -79,4 +87,5 @@
 
 #next-project h3 {
   font-size: 70px;
+  text-transform: capitalize;
 }
