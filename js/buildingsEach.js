@@ -50,7 +50,6 @@ gsap.to("#building-intro", {y:"30%",
    end: "center center", 
    scrub: 2,
    ease: "none",
-   markers: true,
  }
 })  
 
