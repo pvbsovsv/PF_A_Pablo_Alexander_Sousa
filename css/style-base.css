@@ -29,28 +29,23 @@ body {
 
    /* hero / gen nav */
 
-  #hero-links, #top-nav-links {
+  #top-nav-links {
     display: none !important;
   }
 
-  #hero-menu img:first-of-type , #top-menu img:first-of-type {
+  #top-menu img:first-of-type {
     display: none;
   }
-  #hero-menu img:last-of-type , #top-menu img:last-of-type {
-    display: flex;
+  #top-menu img:last-of-type {
+    display: flex !important;
+    width: 90px;
+    height: auto;
   }
 
-  #hero-menu button.contactBtn, #top-menu button.contactBtn {
+  #top-menu button.contactBtn {
     display: none;
   }
 
-  #hero-container h2 {
-    font-size: 18px;
-  }
-
-  .scroll {
-    font-size: 12px;
-  }
 }
 
 /* BREAKPOINT TABLET */
@@ -72,15 +67,15 @@ body {
     max-height: 50px;
   }
 
-  #hero-menu button , #top-menu button {
+  #top-menu button {
     font-size: 11px;
   }
 
-  #hero-links, #top-nav-links {
+  #top-nav-links {
     display: none !important;
   }
 
-  #hero-menu img:last-of-type, #top-menu img:last-of-type {
+  #top-menu img:last-of-type {
     display: none;
   }
 }
@@ -89,7 +84,6 @@ body {
   border-radius: 25px;
   text-transform: uppercase;
 }
-
 
 /* SECTION > Top menu */
 
@@ -127,9 +121,7 @@ body {
   padding-top: 8px;
   overflow: hidden;
 }
-#top-menu div > ul li > a::after {
-  content: ",";
-}
+
 
 #top-menu div > ul li {
   overflow: hidden;

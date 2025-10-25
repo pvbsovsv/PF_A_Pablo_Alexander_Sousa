@@ -2,33 +2,69 @@
 
 @media only screen and (max-width: 600px) {
  
+/* hero */
 
-    #intro-about p {
+  #hero-links {
+    display: none !important;
+  }
+
+  #hero-menu img:first-of-type{
+    display: none;
+  }
+  #hero-menu img:last-of-type {
+    display: flex !important;
+    width: 90px;
+    height: auto;
+  }
+
+  #hero-menu button.contactBtn{
+    display: none;
+  }
+
+  #hero-container h1 {
+    font-size: 18px;
+  }
+
+  .scroll {
+    font-size: 12px;
+  }
+
+  #intro-about p {
   font-size: 0.9rem !important;
 }
-
 
   #testimonial p.testimonial-text {
     font-size: 0.9rem !important;
   }
 
 
+
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px)  {
   
+
+  #hero-menu button {
+    font-size: 11px;
+  }
+
+  #hero-links, #top-nav-links {
+    display: none !important;
+  }
+
+  #hero-menu img:last-of-type{
+    display: none;
+  }
+
+
   #testimonial p.testimonial-text {
     font-size: 1rem !important;
   }
 
-
-
   #intro-about p {
   font-size: 1.2rem !important;
 }
-
-
-
 
 }
 
@@ -51,7 +87,7 @@
 }
 
 #hero img {
-  width: 190px;
+  width: 230px;
 }
 
 #hero-menu {
@@ -75,9 +111,6 @@
   padding-top: 8px;
   overflow: hidden;
 }
-#hero-menu div > ul li > a::after {
-  content: ",";
-}
 
 #hero-menu div > ul li {
   overflow: hidden;
@@ -95,25 +128,10 @@
   top: 0px;
 }
 
-#hero-featured {
-  font-size: 14px;
-}
-
-#hero-featured span:nth-of-type(4) {
-  text-underline-offset: 4px;
-}
-
 #hero .btn {
   z-index: 9998;
 }
 
-.container-btns {
-  position: fixed;
-  top: 10px;
-  right: 0px;
-  overflow: hidden;
-  z-index: 9998;
-}
 
 /* SECTION >  intro to company */
 
