@@ -1,9 +1,5 @@
 * {
-  font-family: Host Grotesk, Arial, Helvetica, sans-serif;
-  /* optimization of typography for windows */  
-  -webkit-font-smoothing: antialiased;  /* macOS */
-  -moz-osx-font-smoothing: grayscale;   /* macOS Firefox */
-  text-rendering: optimizeLegibility;   /* browsers */
+  font-family: 'Inter','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
