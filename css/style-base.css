@@ -115,9 +115,9 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #080807;
-  font-weight: 550;
+  font-weight: 450;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1rem;
   padding-top: 8px;
   overflow: hidden;
 }
