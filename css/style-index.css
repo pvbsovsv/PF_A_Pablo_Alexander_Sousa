@@ -51,7 +51,7 @@
 }
 
 #hero img {
-  width: 100px;
+  width: 190px;
 }
 
 #hero-menu {
@@ -60,8 +60,8 @@
   align-items: center;
 }
 
-/* mobile */
-#hero-menu h1.display-5 {
+/* mobile logo */
+#hero-menu img:last-of-type {
   display: none;
 }
 
