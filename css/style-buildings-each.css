@@ -74,15 +74,15 @@
   text-transform: capitalize;
 }
 
-#building-intro section:first-of-type {
+#building-brief {
   height: 50%;
 }
-#building-intro section:first-of-type p {
-  font-size: 16px;
+#building-brief p {
+  font-size: 1rem;
   text-transform: uppercase;
 }
-#building-intro section h1 {
-  font-size: 106px;
+#building-brief h1 {
+  font-size: 8rem;
 }
 #building-intro section:last-of-type {
   height: 45%;
@@ -90,12 +90,12 @@
 }
 
 #building-intro section:last-of-type h2{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   color: rgba(224, 224, 224, 0.869);
 }
 #building-intro section:last-of-type p{
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 
