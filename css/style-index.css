@@ -1,76 +1,4 @@
-/* BREAKPOINT MOBILE  */
 
-@media only screen and (max-width: 600px) {
- 
-/* hero */
-
-  #hero-links {
-    display: none !important;
-  }
-
-  #hero-menu img:first-of-type{
-    display: none;
-  }
-  #hero-menu img:last-of-type {
-    display: flex !important;
-    width: 90px;
-    height: auto;
-  }
-
-  #hero-menu button.contactBtn{
-    display: none;
-  }
-
-  #hero-container h1 {
-    font-size: 18px;
-  }
-
-  .scroll {
-    font-size: 12px;
-  }
-
-  #intro-about p {
-  font-size: 0.9rem !important;
-}
-
-  #testimonial p.testimonial-text {
-    font-size: 0.9rem !important;
-  }
-
-
-
-
-}
-
-@media only screen and (min-width: 601px) and (max-width: 992px)  {
-  
-
-  /* hero */
-
-  #hero-links, #top-nav-links {
-    display: none !important;
-  }
-
-  #hero-menu img:last-of-type{
-    display: none;
-  }
-
-  #hero-container h1 {
-  font-weight: 300;
-  font-size: 2.5rem;
-}
-
-
-  /* testimonial */
-  #testimonial p.testimonial-text {
-    font-size: 1rem !important;
-  }
-
-  #intro-about p {
-  font-size: 1.2rem !important;
-}
-
-}
 
 /* SECTION > Hero Landing */
 
@@ -109,7 +37,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-weight: 450;
+  font-weight: 500;
   display: inline-block;
   font-size: 1rem;
   padding-top: 8px;
@@ -137,9 +65,13 @@
 }
 
 #hero-container h1 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2.5rem;
 }
+
+ .scroll {
+    font-size: 1rem;
+  }
 
 
 /* SECTION >  intro to company */
@@ -193,5 +125,79 @@
 /* SECTION TESTIMONIAL */
 
   #testimonial p.testimonial-text {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
+
+
+  /* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+/* hero */
+
+  #hero-links {
+    display: none !important;
+  }
+
+  #hero-menu img:first-of-type{
+    display: none;
+  }
+  #hero-menu img:last-of-type {
+    display: flex;
+    width: 90px;
+    height: auto;
+  }
+
+  #hero-menu button.contactBtn{
+    display: none;
+  }
+
+  #hero-container h1 {
+    font-size: 1.75rem;
+  }
+
+  .scroll {
+    font-size: 0.8rem;
+  }
+
+  #intro-about p {
+  font-size: 0.9rem;
+}
+
+  #testimonial p.testimonial-text {
+    font-size: 0.9rem;
+  }
+
+
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px)  {
+  
+
+  /* hero */
+
+  #hero-links, #top-nav-links {
+    display: none !important;
+  }
+
+  #hero-menu img:last-of-type{
+    display: none;
+  }
+
+  #hero-container h1 {
+  font-size: 2rem;
+}
+
+
+  /* testimonial */
+  #testimonial p.testimonial-text {
+    font-size: 1.2rem;
+  }
+
+  #intro-about p {
+  font-size: 1.2rem ;
+}
+
+}
