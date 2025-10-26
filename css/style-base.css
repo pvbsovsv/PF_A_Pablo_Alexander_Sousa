@@ -98,6 +98,10 @@ body {
   display: inline-block;
 }
 
+#navbar img {
+  width: 230px;
+}
+
 #navbar > nav a,
 #navbar nav button {
   color: white;
