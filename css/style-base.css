@@ -31,14 +31,14 @@ body {
   color: #080807;
 }
 
-#top-menu div:first-of-type a{
-  text-decoration: none;
-  color: #080807;
+.head-logo-lg{
+  width: 230px;
+
 
 }
 
 /* mobile */
-#top-menu img:last-of-type {
+.head-logo-sm{
   display: none;
 }
 
@@ -262,10 +262,10 @@ footer address p, footer address p a {
     display: none !important;
   }
 
-  #top-menu img:first-of-type {
+.head-logo-lg{
     display: none;
   }
-  #top-menu img:last-of-type {
+  .head-logo-sm {
     display: flex !important;
     width: 90px;
     height: auto;
@@ -330,15 +330,11 @@ footer h5 {
     max-height: 50px;
   }
 
-  #top-menu button {
-    font-size: 11px;
-  }
-
   #top-nav-links {
     display: none !important;
   }
 
-  #top-menu img:last-of-type {
+.head-logo-sm {
     display: none;
   }
 }
