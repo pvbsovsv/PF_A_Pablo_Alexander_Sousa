@@ -490,7 +490,7 @@ function indexDesktop() {
 
   //SECTION > METHOD
 
-  const methodText = document.querySelector("#our-method p")
+  const methodText = document.querySelector("#our-method h2")
   const methodList = document.querySelector("#our-method div.col-md-5")
 
   gsap.set(methodText, {y:"-100%", opacity:0})

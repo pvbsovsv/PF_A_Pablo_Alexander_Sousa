@@ -1,5 +1,3 @@
-
-
 /* SECTION > Hero Landing */
 
 #hero-container {
@@ -69,29 +67,25 @@
   font-size: 2.75rem;
 }
 
- .scroll {
-    font-size: 1rem;
-  }
-
+.scroll {
+  font-size: 1rem;
+}
 
 /* SECTION >  intro to company */
-
-
 
 #company-intro div {
   overflow: hidden;
   color: #080807;
 }
 
-.frases-intro  h2 {
+.frases-intro h2 {
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 450;
 }
 
 #intro-about p {
   font-size: 1.5rem;
 }
-
 
 .text-intro img {
   width: auto;
@@ -104,45 +98,57 @@
   overflow: hidden;
 }
 
+#our-method h2 {
+  font-size: 2.5rem;
+  font-weight: 450;
+  line-height: 1.6;
+}
+
+/* incremented ol for each li inputted */
+
 .custom-ol {
   counter-reset: section;
-  list-style: none ;
+  list-style: none;
 }
 
 .custom-ol li {
-  counter-increment: section ;
+  counter-increment: section;
   color: #080807;
-  font-weight: lighter;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .custom-ol li::before {
   content: "(0" counter(section) ")  ";
   font-weight: 500;
   font-size: 20px;
-  color: #535353;
+  color: #a1a1a1;
 }
 
 
+/* featured projects */
 
+.featured-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
 
-/* SECTION TESTIMONIAL */
+/* testimonial */
 
-  #testimonial p.testimonial-text {
-    font-size: 1.5rem;
-  }
+#testimonial p.testimonial-text {
+  font-size: 1.5rem;
+}
 
-
-  /* BREAKPOINT MOBILE  */
+/* BREAKPOINT MOBILE  */
 
 @media only screen and (max-width: 600px) {
- 
-/* hero */
+  /* hero */
 
   #hero-links {
     display: none !important;
   }
 
-  #hero-menu img:first-of-type{
+  #hero-menu img:first-of-type {
     display: none;
   }
   #hero-menu img:last-of-type {
@@ -151,68 +157,101 @@
     height: auto;
   }
 
-  #hero-menu button.contactBtn{
+  #hero-menu button.contactBtn {
     display: none;
   }
 
   #hero-container h1 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .scroll {
     font-size: 0.8rem;
   }
-/* Intro / about  */
+  /* Intro / about  */
 
-.frases-intro  h2 {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-  #intro-about p {
-  font-size: 0.9rem;
-}
-
-
-/* testimonial */
-
-  #testimonial p.testimonial-text {
-    font-size: 0.9rem;
+  .frases-intro h2 {
+    font-size: 1.85rem;
+    font-weight: 500;
   }
 
+  #intro-about p {
+    font-size: 1rem;
+  }
 
+  /*  our method */
 
+  #our-method h2 {
+  font-size: 1.85rem;
+  font-weight: 450;
+  line-height: normal;
 
 }
 
-@media only screen and (min-width: 601px) and (max-width: 992px)  {
-  
+  .custom-ol li {
+    font-size: 1rem;
+  }
 
+  /* featured projects */
+
+.featured-title {
+  font-size: 1.85rem;
+  font-weight: 500;
+}
+
+  /* testimonial */
+
+  #testimonial p.testimonial-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   /* hero */
 
-  #hero-links, #top-nav-links {
+  #hero-links,
+  #top-nav-links {
     display: none !important;
   }
 
-  #hero-menu img:last-of-type{
+  #hero-menu img:last-of-type {
     display: none;
   }
 
   #hero-container h1 {
-  font-size: 2rem;
-}
+    font-size: 2.5rem;
+  }
 
-/* Intro / about */
+  /* Intro / about */
 
-#intro-about p {
-  font-size: 1.2rem;
-}
+  #intro-about p {
+    font-size: 1.2rem;
+  }
 
-.frases-intro  h2 {
+  .frases-intro h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+  }
+
+  /* our method */
+
+  #our-method h2 {
+    font-size: 2.25rem;
+    font-weight: 450;
+  }
+
+  .custom-ol li {
+    font-size: 1.2rem;
+  }
+
+  /* featured projects */
+
+.featured-title {
   font-size: 2.25rem;
-  font-weight: 400;
+  font-weight: 500;
 }
-
 
   /* testimonial */
   #testimonial p.testimonial-text {
@@ -220,7 +259,6 @@
   }
 
   #intro-about p {
-  font-size: 1.2rem ;
-}
-
+    font-size: 1.2rem;
+  }
 }
