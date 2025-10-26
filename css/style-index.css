@@ -80,7 +80,7 @@
 
 .frases-intro h2 {
   font-size: 2.5rem;
-  font-weight: 450;
+  font-weight: 500;
 }
 
 #intro-about p {
@@ -100,7 +100,7 @@
 
 #our-method h2 {
   font-size: 2.5rem;
-  font-weight: 450;
+  font-weight: 500;
   line-height: 1.6;
 }
 
@@ -121,7 +121,6 @@
 .custom-ol li::before {
   content: "(0" counter(section) ")  ";
   font-weight: 500;
-  font-size: 20px;
   color: #a1a1a1;
 }
 
@@ -133,10 +132,28 @@
   font-weight: 500;
 }
 
+#featured-projects span{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 /* testimonial */
 
-#testimonial p.testimonial-text {
+#testimonial h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.testimonial-text {
   font-size: 1.5rem;
+}
+
+#testimonial span {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
 }
 
 /* BREAKPOINT MOBILE  */
@@ -199,11 +216,30 @@
   font-weight: 500;
 }
 
+
+#featured-projects span{
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 650;
+}
+
   /* testimonial */
 
-  #testimonial p.testimonial-text {
-    font-size: 1rem;
-  }
+  #testimonial h2 {
+  font-size: 1.85rem;
+  font-weight: 450;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+}
+
+#testimonial span {
+  font-size: 1.1rem;
+  font-weight: 650;
+  text-transform: uppercase;
+
+}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -253,12 +289,28 @@
   font-weight: 500;
 }
 
-  /* testimonial */
-  #testimonial p.testimonial-text {
-    font-size: 1.2rem;
-  }
 
-  #intro-about p {
-    font-size: 1.2rem;
-  }
+#featured-projects span{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 650;
+}
+
+/* testimonial */
+
+#testimonial h2 {
+  font-size: 2.25rem;
+  font-weight: 450;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+}
+
+#testimonial span {
+  font-size: 1rem;
+  font-weight: 650;
+  text-transform: uppercase;
+
+}
 }
