@@ -40,7 +40,7 @@ function buildingsDesktop() {
 
 //Section >> BUILDINGS INTRO >  Parallax intro
 
-gsap.set("#buildings-hero", {y:"-25%"})
+/* gsap.set("#buildings-hero", {y:"-25%"})
 
 gsap.to("#buildings-hero",  {
   y:"35%",
@@ -71,7 +71,7 @@ gsap.to(galleryProject, {y:"10%",
     scrub:2,
     stagger:1,
   }
-})
+}) */
 
 
 
