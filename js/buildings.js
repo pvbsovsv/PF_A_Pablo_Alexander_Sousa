@@ -40,7 +40,7 @@ function buildingsDesktop() {
 
 //Section >> BUILDINGS INTRO >  Parallax intro
 
-/* gsap.set("#buildings-hero", {y:"-25%"})
+gsap.set("#buildings-hero", {y:"-35%"})
 
 gsap.to("#buildings-hero",  {
   y:"35%",
@@ -52,29 +52,6 @@ gsap.to("#buildings-hero",  {
     scrub:1
   }
 })
-
-
-
-//Section >> BUILDINGS GALLERY> animation
-
-const galleryProject = document.querySelectorAll(".project-pack")
-
-
-gsap.set(galleryProject, {y:"-10%"})
-
-gsap.to(galleryProject, {y:"10%",
-  scrollTrigger:{
-    trigger:"#buildings-intro",
-    start: "center 200px",
-    endTrigger:"buildings-gallery",
-    end: "center bottom",
-    scrub:2,
-    stagger:1,
-  }
-}) */
-
-
-
 
 }
 

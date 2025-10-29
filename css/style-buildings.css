@@ -1,26 +1,10 @@
 
 
-/* BREAKPOINT MOBILE  */
-
-@media only screen and (max-width: 600px) {
- 
-#buildings-intro {
-
-  height: 75vh !important;
-
-}
-
-}
-
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* bootstrap toma conta disto */
-}
-
 /* SECTION >  buildings intro*/
 
 #buildings-intro {
 
-  height: 90vh;
+  height: 95vh;
   overflow-y: hidden;
 
 }
@@ -40,6 +24,22 @@
 
 }
 
+#buildings-hero h1 {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+#buildings-hero p {
+  font-size: 1.5rem;
+}
+
+.build-category, .build-title {
+  display: block;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 
 
 /* SECTION >> GRID */
@@ -54,4 +54,66 @@
 
 .build-title{
     color: #080807;
+}
+
+
+
+
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+#buildings-intro {
+
+  height: 75vh ;
+
+}
+
+#img-landing {
+  max-height: 55%;
+}
+
+#buildings-hero h1 {
+  font-size: 2rem ;
+}
+
+#buildings-hero p {
+  font-size: 1rem;
+}
+
+.build-category, .build-title {
+  display: block;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+ 
+
+/* Section > Buildings intro */
+
+#img-landing {
+  max-height: 55%;
+}
+
+#buildings-hero h1 {
+  font-size: 2.5rem;
+}
+
+#buildings-hero p {
+  font-size: 1.2rem;
+}
+
+.build-category, .build-title {
+  display: block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
 }
