@@ -313,6 +313,10 @@ footer h5 {
   text-transform: uppercase;
 }
 
+ .footer-nav-container, #footer-navigation {
+    display: none !important;
+  }
+
 }
 
 /* BREAKPOINT TABLET */
@@ -341,4 +345,10 @@ footer h5 {
 .head-logo-sm {
     display: none;
   }
+
+  .footer-nav-container, #footer-navigation {
+    display: none !important;
+  }
+
+
 }
