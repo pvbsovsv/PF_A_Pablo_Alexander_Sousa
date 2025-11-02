@@ -1,40 +1,18 @@
 
 
 
+/* intro services */
 
-/* BREAKPOINT MOBILE  */
-
-@media only screen and (max-width: 600px) {
- 
 #services-intro {
 
-  height: 75vh !important;
+  height: 95vh;
+  overflow-y: hidden;
 
 }
 
-#img-landing {
+#services-hero {
   height: 100%;
-
-}
-
-#parallax-services-container {
-  height: 50vh !important;
-}
-  
-}
-
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* bootstrap toma conta disto */
-}
-
-
-
-/* SECTION >  intro services */
-
-#services-intro {
-
-  height: 90vh;
-
+  width: 100%;
 }
 
 #img-landing {
@@ -46,6 +24,17 @@
   background-repeat: no-repeat;
 
 }
+
+#services-intro h1 {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+#services-intro p {
+  font-size: 1.5rem;
+}
+
+
 /* paralllax img */
 
 #parallax-services-container {
@@ -68,7 +57,26 @@
 }
 
 
-/* SECTION > Area Services */
+/* Areas of service */
+
+
+#areas-service h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#areas-service p {
+  font-size: 1.5rem;
+  color: #252525;
+}
+
+#areas-service ul {
+  color: #252525;
+  font-size: 1.5rem;
+  font-weight: 300;
+
+}
+
 
 
 #areas-service img {
@@ -78,4 +86,109 @@
 
 #areas-service div{
   overflow: hidden;
+}
+
+
+
+
+
+
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+/* intro services */
+
+#services-intro {
+
+  height: 75vh !important;
+
+}
+
+#img-landing {
+  max-height: 55%;
+}
+
+
+#services-intro h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#services-intro p {
+  font-size: 1rem;
+}
+
+/* parallax */
+
+
+#parallax-services-container {
+  height: 50vh !important;
+}
+
+/* Areas of service */
+
+#areas-service h2 {
+  font-size: 1.85rem;
+  font-weight: 500;
+}
+
+#areas-service p {
+  font-size: 1rem;
+  color: #252525;
+}
+
+#areas-service ul {
+  color: #252525;
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+/* intro services */
+
+
+
+#img-landing {
+  max-height: 55%;
+}
+
+
+#services-intro h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#services-intro p {
+  font-size: 1.2rem;
+}
+
+/* parallax */
+
+#parallax-services-container span {
+  font-size: 4rem;
+}
+
+/* Areas of service */
+#areas-service h2 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+#areas-service p {
+  font-size: 1.2rem;
+  color: #252525;
+}
+
+#areas-service ul {
+  color: #252525;
+  font-size: 1.2rem;
+  font-weight: 300;
+
+}
+
 }
