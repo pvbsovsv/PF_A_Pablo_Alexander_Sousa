@@ -1,8 +1,6 @@
 * {
   font-family: 'Inter','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   -webkit-font-smoothing: antialiased;  /* macOS */
-  -moz-osx-font-smoothing: grayscale;   /* macOS Firefox */
-  text-rendering: optimizeLegibility;   /* all browsers */
+ /* all browsers */
 }
 
 body {
