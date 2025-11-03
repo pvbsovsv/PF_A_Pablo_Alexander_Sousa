@@ -1,6 +1,8 @@
 * {
-  font-family: 'Inter',Arial, Helvetica, sans-serif;
- /* all browsers */
+  font-family: 'Inter', Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;  /* macOS */
+  -moz-osx-font-smoothing: grayscale;   /* macOS Firefox */
+  text-rendering: optimizeLegibility;   /* all browsers */
 }
 
 body {
