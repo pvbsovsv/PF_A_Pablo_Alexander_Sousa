@@ -1,26 +1,12 @@
 
 
-/* BREAKPOINT MOBILE  */
 
-@media only screen and (max-width: 600px) {
- 
-#about-intro {
-
-  height: 75vh !important;
-
-}
-
-}
-
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* bootstrap toma conta disto */
-}
 
 /* SECTION >  about intro*/
 
 #about-intro {
 
-  height: 90vh;
+  height: 95vh;
   overflow-y: hidden;
 
 }
@@ -40,7 +26,122 @@
 
 }
 
+#about-hero h1 {
+  font-size: 2.75rem;
+  font-weight: 500;
+
+}
+
+#about-hero p {
+  font-size: 1.5rem;
+}
+
+/* our people */
+
+#our-people h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#our-people p {
+  font-size: 1.5rem;
+}
+
+/* our philo */
+#our-philo h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#our-philo p {
+  font-size: 1.5rem;
+  color: #252525;
+}
+
+
+
 .pillar-number {
-font-size: 140px;
+font-size: 10rem;
+
+}
+
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+#about-intro {
+
+  height: 75vh ;
+
+}
+
+#img-landing {
+  max-height: 55%;
+}
+
+#about-hero h1 {
+  font-size: 2rem;
+  font-weight: 500;
+
+}
+
+#about-hero p {
+  font-size: 1rem;
+}
+
+/* our philo */
+
+
+
+.pillar-number {
+font-size: 5rem;
+
+}
+
+
+/* our people */
+
+#our-people h2 {
+  font-size: 1.85rem;
+  font-weight: 500;
+}
+
+#our-people p {
+  font-size: 1.5rem;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+
+#img-landing {
+  max-height: 55%;
+}
+
+#about-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+
+}
+
+#about-hero p {
+  font-size: 1.2rem;
+}
+
+
+
+/* our people */
+
+#our-people h2 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+#our-people p {
+  font-size: 1.2rem;
+}
+
+
 
 }
