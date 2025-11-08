@@ -26,6 +26,8 @@ weAreClosed();
 
 function buildingsEachMobile() {
   console.log("mobile version loaded.");
+
+  gsap.to("#building-intro", {y:0})  
     
 }
 
