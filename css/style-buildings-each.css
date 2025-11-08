@@ -1,19 +1,5 @@
 
-/* BREAKPOINT MOBILE  */
-
-@media only screen and (max-width: 600px) {
- 
- 
-
-}
-
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* bootstrap toma conta disto */
-}
-
-
-
-/* section Building intro */
+/* building intro */
 
 #top-nav a {
   color: white !important;
@@ -54,9 +40,7 @@
 
 }
 
-
-
-
+/* building intro */
 
 #building-intro {
   background-position: center;
@@ -70,10 +54,6 @@
 
 }
 
-#building-intro h1 {
-  text-transform: capitalize;
-}
-
 #building-brief {
   height: 50%;
 }
@@ -83,6 +63,8 @@
 }
 #building-brief h1 {
   font-size: 8rem;
+  text-transform: capitalize;
+
 }
 #building-intro section:last-of-type {
   height: 45%;
@@ -95,7 +77,7 @@
   color: rgba(224, 224, 224, 0.869);
 }
 #building-intro section:last-of-type p{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -105,10 +87,6 @@
   z-index: 9996;
   background-color: white;
 }
-
-
-
-
 
 /* Next Project Navigation */
 
@@ -126,6 +104,63 @@
 }
 
 #next-project h3 {
-  font-size: 70px;
+  font-size: 4rem;
   text-transform: capitalize;
+}
+
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (max-width: 600px) {
+ 
+/* building intro */
+
+#building-intro {
+  height: 100vh;
+}
+
+
+
+#building-intro div.text-sm-end{
+  display: none;
+}
+
+#building-intro div.justify-content-around{
+  align-items: center;
+}
+
+#building-brief {
+  height: 35%;
+}
+
+#building-brief h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+
+}
+#building-brief p {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+#building-intro section:last-of-type {
+  height: 45%;
+  margin-top: 100px;
+}
+
+#building-intro section:last-of-type h2{
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: rgba(224, 224, 224, 0.869);
+}
+#building-intro section:last-of-type p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* bootstrap toma conta disto */
 }

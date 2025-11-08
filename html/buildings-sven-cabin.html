@@ -18,7 +18,7 @@
   <body>
     <main>
       <!-- Project -->
-      <article id="building-sven-cabin">
+      <section id="building-sven-cabin">
         <div id="building-intro">
           <!--  Navbar is inside to create effect in this particular page-->
           <div id="navbar">
@@ -266,16 +266,16 @@
                 </div>
               </div>
               <div class="row d-flex justify-content-around p-2">
-                <div class="col"><p>cascais, Lis</p></div>
-                <div class="col text-center"><p>portugal</p></div>
-                <div class="col text-end"><p>(scroll down)</p></div>
+                <div class="col text-center text-sm-start"><p>cascais, Lis</p></div>
+                <div class="col  text-center"><p>portugal</p></div>
+                <div class="col text-center text-sm-end"><p>(scroll down)</p></div>
               </div>
             </div>
           </section>
           <section class="container-fluid">
-            <div class="row d-flex justify-content-end">
-              <div class="col-6 d-flex flex-column">
-                <div class="row mb-4">
+            <div class="row d-flex justify-content-end flex-wrap">
+              <div class="col-10 col-md-6 d-flex flex-column flex-wrap">
+                <div class="row mb-2 mb-md-4">
                   <div class="col">
                     <h2 class="">Project type</h2>
                     <p class="">Residential</p>
@@ -285,7 +285,7 @@
                     <p class="">Whole Remodelation</p>
                   </div>
                 </div>
-                <div class="row mb-4">
+                <div class="row mb-2 mb-md-4">
                   <div class="col">
                     <h2 class="">Carbon Footprint</h2>
                     <p class="">8.1tns CO2/year</p>
@@ -295,7 +295,7 @@
                     <p class="">2019</p>
                   </div>
                 </div>
-                <div class="row mb-4 d-flex justify-content-end">
+                <div class="row mb-2 mb-md-4 d-flex justify-content-sm-end">
                   <div class="col-6">
                     <h2 class="">Size</h2>
                     <p class="">500m2</p>
@@ -305,61 +305,61 @@
             </div>
           </section>
         </div>
-        <!-- Gallery -->
-        <section id="building-gallery" class="container-fluid my-5">
-          <!-- Project images -->
+      </section>
+      <!-- Gallery -->
+      <section id="building-gallery" class="container-fluid my-5">
+        <!-- Project images -->
 
-          <div class="row my-3 d-flex">
-            <div class="col" >
-              <img
-                src="../images/buildings-img/project-2/project2-1.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
+        <div class="row my-3 d-flex">
+          <div class="col">
+            <img
+              src="../images/buildings-img/project-2/project2-1.jpg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-          <div class="row my-3">
-            <div class="col">
-              <img
-                src="../images/buildings-img/project-2/project2-2.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="row my-3">
+          <div class="col">
+            <img
+              src="../images/buildings-img/project-2/project2-2.jpg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-          <div class="row my-3">
-            <div class="col">
-              <img
-                src="../images/buildings-img/project-2/project2-3.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="row my-3">
+          <div class="col">
+            <img
+              src="../images/buildings-img/project-2/project2-3.jpg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-        </section>
-        <nav
-          id="next-project"
-          class="container-fluid my-5 flex-column justify-content-between"
+        </div>
+      </section>
+      <nav
+        id="next-project"
+        class="container-fluid my-5 flex-column justify-content-between"
+      >
+        <div class="row text-center">
+          <div class="col"><p>Next project</p></div>
+        </div>
+        <div
+          class="row d-flex align-items-center justify-content-center flex-column"
         >
-          <div class="row text-center">
-            <div class="col"><p>Next project</p></div>
+          <div class="col-12 text-center"><h3>Chalet Beatriz</h3></div>
+          <div class="col-8">
+            <a href="./buildings-chalet-beatriz.html">
+              <img
+                src="../images/buildings-img/project-3/project3-2.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
           </div>
-          <div
-            class="row d-flex align-items-center justify-content-center flex-column"
-          >
-            <div class="col-12 text-center"><h3>Chalet Beatriz</h3></div>
-            <div class="col-8">
-              <a href="./buildings-chalet-beatriz.html">
-                <img
-                  src="../images/buildings-img/project-3/project3-2.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-          </div>
-        </nav>
-      </article>
+        </div>
+      </nav>
     </main>
 
     <!-- footer -->
@@ -380,7 +380,9 @@
               class="img-fluid ft-logo my-5"
             />
           </div>
-          <div class="col footer-nav-container text-lowercase d-flex justify-content-center">
+          <div
+            class="col footer-nav-container text-lowercase d-flex justify-content-center"
+          >
             <nav id="footer-navigation">
               <h4 class="">Navigation</h4>
               <ul class="list-inline d-flex flex-column">
