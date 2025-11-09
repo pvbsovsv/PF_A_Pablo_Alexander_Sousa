@@ -43,13 +43,13 @@ gsap.set("#our-people .row", {opacity:0})
 
   gsap.to("#our-people h2", {opacity:1, scrollTrigger:{
     trigger:"#about-hero", 
-    start: "center center",
+    start: "bottom center",
     scrub:1,
   }});
 
   gsap.to("#our-people .row", {opacity:1, scrollTrigger:{
     trigger:"#about-hero", 
-    start: "bottom bottom",
+    start: "bottom center",
     scrub:1,
     stagger:1,
   }})
