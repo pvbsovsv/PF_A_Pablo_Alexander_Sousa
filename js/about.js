@@ -55,10 +55,6 @@ gsap.set("#our-people .row", {opacity:0})
   }})
 
 
-
-
-
-
   //SECTION > 5 pillars 
   const pillarSectionTitle = document.querySelector("#our-philo h2")
   gsap.set(pillarSectionTitle, {opacity:0})
@@ -88,7 +84,17 @@ gsap.set("#our-people .row", {opacity:0})
 
 
 
+//SECTION > our method
 
+gsap.set("#our-method .row", {opacity:0})
+
+gsap.to("#our-method .row", { opacity: 1,
+    stagger: 0.7,
+    scrollTrigger: {
+      trigger: "#our-philo",
+      start: "bottom center",
+      scrub: 1,
+    },})
 
 
 
