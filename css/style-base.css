@@ -334,6 +334,10 @@ footer h5 {
     display: none;
   }
 
+  #nav-policy{
+    margin-bottom: 5%;
+  }
+
   #footer-navigation ul > li {
     max-height: 50px;
   }

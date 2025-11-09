@@ -189,6 +189,10 @@
     font-size: 2rem;
   }
 
+   #sentence-container {
+    margin-bottom: 3%;
+  }
+
   .scroll {
     font-size: 0.8rem;
   }
@@ -267,6 +271,10 @@
 
   #hero-container h1 {
     font-size: 2.5rem;
+  }
+
+  #sentence-container {
+    margin-bottom: 5%;
   }
 
   /* Intro / about */
