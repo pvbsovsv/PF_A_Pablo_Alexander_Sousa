@@ -175,7 +175,59 @@
 @media only screen and (min-width: 601px) and (max-width: 992px) {
 
 
+ 
+/* building intro */
 
+#building-intro {
+  height: 100vh;
+}
+
+
+
+#building-intro div.justify-content-around{
+  align-items: center;
+}
+
+#building-brief {
+  height: 50%;
+}
+
+#building-brief h1 {
+  font-size: 6rem;
+  text-transform: capitalize;
+
+}
+#building-brief p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+#building-intro section:last-of-type {
+  height: 45%;
+  margin-top: 5%;
+}
+
+#building-intro section:last-of-type h2{
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgba(224, 224, 224, 0.869);
+}
+#building-intro section:last-of-type p{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* nerxt project navigation */
+
+#next-project p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#next-project h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
 
   
 }
