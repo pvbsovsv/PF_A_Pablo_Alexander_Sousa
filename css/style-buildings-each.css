@@ -156,7 +156,7 @@
   font-weight: 500;
 }
 
-/* nerxt project navigation */
+/* next project navigation */
 
 #next-project p {
   text-transform: uppercase;
@@ -164,7 +164,7 @@
   font-weight: bold;
 }
 
-#next-project h3 {
+#next-project div h3 {
   font-size: 2rem;
   text-transform: capitalize;
 }

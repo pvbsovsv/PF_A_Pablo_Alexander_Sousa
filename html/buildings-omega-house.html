@@ -18,7 +18,7 @@
   <body>
     <main>
       <!-- Project -->
-      <article id="building-omega-house">
+      <section id="building-omega-house">
         <div id="building-intro">
           <!--  Navbar is inside to create effect in this particular page-->
           <div id="navbar">
@@ -265,17 +265,27 @@
                   <h1>omega house</h1>
                 </div>
               </div>
-              <div class="row d-flex justify-content-around p-2">
-                <div class="col"><p>Matosinhos, OPO</p></div>
+              <div
+                class="row d-flex justify-content-sm-around justify-content-center p-2"
+              >
+                <div class="col text-center text-md-start">
+                  <p>Matosinhos, OPO</p>
+                </div>
                 <div class="col text-center"><p>portugal</p></div>
-                <div class="col text-end"><p>(scroll down)</p></div>
+                <div class="col text-center text-sm-end">
+                  <p>(scroll down)</p>
+                </div>
               </div>
             </div>
           </section>
           <section class="container-fluid">
-            <div class="row d-flex justify-content-end">
-              <div class="col-6 d-flex flex-column">
-                <div class="row mb-4">
+            <div
+              class="row d-flex justify-content-center justify-content-md-end flex-wrap p-2"
+            >
+              <div
+                class="col-11 col-md-8 col-lg-6 d-flex flex-column flex-wrap"
+              >
+                <div class="row mb-0 mb-sm-4">
                   <div class="col">
                     <h2 class="">Project type</h2>
                     <p class="">Residential</p>
@@ -285,7 +295,7 @@
                     <p class="">New Build</p>
                   </div>
                 </div>
-                <div class="row mb-4">
+                <div class="row mb-0 mb-sm-4">
                   <div class="col">
                     <h2 class="">Carbon Footprint</h2>
                     <p class="">8.1tns CO2/year</p>
@@ -295,63 +305,69 @@
                     <p class="">2019</p>
                   </div>
                 </div>
-                <div class="row mb-4 d-flex justify-content-end">
+                <div class="row mb-0 mb-sm-4 d-flex justify-content-end">
                   <div class="col-6">
                     <h2 class="">Size</h2>
                     <p class="">1300m2</p>
+                  </div>
+
+                  <div class="col">
+                    <h2 class="">EG Consumption</h2>
+                    <p class="">8200kWh</p>
                   </div>
                 </div>
               </div>
             </div>
           </section>
         </div>
-        <section id="building-gallery" class="container-fluid">
-          <!-- Project images -->
-
-          <div class="row my-3">
-            <div class="col">
-              <img
-                src="../images/buildings-img/project-6/project6-4.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
+      </section>
+      <!-- gallery -->
+      <section id="building-gallery" class="container-fluid mt-2">
+        <div class="row my-3">
+          <div class="col d-flex justify-content-center align-items-center">
+            <img
+              src="../images/buildings-img/project-6/project6-4.jpg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-          <div class="row my-3">
-            <div class="col">
-              <img
-                src="../images/buildings-img/project-6/project6-5.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="row my-3">
+          <div class="col d-flex justify-content-center align-items-center">
+            <img
+              src="../images/buildings-img/project-6/project6-5.jpg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-          <div class="row my-3 gx-3">
-            <div class="col">
-              <img
-                src="../images/buildings-img/project-6/project6-2.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
-            <div class="col">
-              <img
-                src="../images/buildings-img/project-6/project6-3.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
+        </div>
+        <div class="row my-3 gx-3">
+          <div class="col d-flex justify-content-center align-items-center">
+            <img
+              src="../images/buildings-img/project-6/project6-2.jpg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-          <div class="row my-3">
-            <div class="col">
-              <img
-                src="../images/buildings-img/project-6/project6-6.jpg"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <img
+              src="../images/buildings-img/project-6/project6-3.jpg"
+              alt=""
+              class="img-fluid"
+            />
           </div>
-        </section>
+        </div>
+        <div class="row my-3">
+          <div class="col d-flex justify-content-center align-items-center">
+            <img
+              src="../images/buildings-img/project-6/project6-6.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
         <nav
           id="next-project"
           class="container-fluid my-5 flex-column justify-content-between"
@@ -374,7 +390,7 @@
             </div>
           </div>
         </nav>
-      </article>
+      </section>
     </main>
     <!-- footer -->
     <footer>
@@ -394,7 +410,9 @@
               class="img-fluid ft-logo my-5"
             />
           </div>
-          <div class="col footer-nav-container text-lowercase d-flex justify-content-center">
+          <div
+            class="col footer-nav-container text-lowercase d-flex justify-content-center"
+          >
             <nav id="footer-navigation">
               <h4 class="">Navigation</h4>
               <ul class="list-inline d-flex flex-column">

@@ -156,6 +156,11 @@
 
 }
 
+#testimonial a {
+  text-decoration: none;
+  color: #080807;
+}
+
 
 
 /* BREAKPOINT MOBILE  */
