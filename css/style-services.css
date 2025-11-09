@@ -146,7 +146,7 @@
 
 #services-intro {
 
-  height: 75vh !important;
+  height: 65vh !important;
 
 }
 
@@ -168,7 +168,7 @@
 
 
 #parallax-services-container {
-  height: 50vh !important;
+  display: none;
 }
 
 /* Areas of service */

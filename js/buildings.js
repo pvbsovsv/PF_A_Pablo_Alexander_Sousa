@@ -26,7 +26,7 @@ weAreClosed();
 
 function buildingsMobile() {
   console.log("mobile version loaded.");
-    
+  gsap.set("#buildings-hero", {y:0})
 }
 
 
