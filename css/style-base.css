@@ -256,17 +256,21 @@ footer address p, footer address p a {
     display: none;
   }
 
-  #footer-navigation ul > li {
-    max-height: 50px;
-  }
+  #contact-form {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  right: 0px;
+}
 
-   /* hero / gen nav */
-
+  
+  /* hero / gen nav */
+  
   #top-nav-links {
     display: none !important;
   }
-
-.head-logo-lg{
+  
+  .head-logo-lg{
     display: none;
   }
   .head-logo-sm {
@@ -274,13 +278,16 @@ footer address p, footer address p a {
     width: 90px;
     height: auto;
   }
-
+  
   #top-menu button.contactBtn {
     display: none;
   }
-
+  
   /* footer */
-
+  
+  #footer-navigation ul > li {
+    max-height: 50px;
+  }
 
 footer a {
   text-decoration: none;
