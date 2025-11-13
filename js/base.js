@@ -456,7 +456,8 @@ function weAreClosed() {
 //email contact form
 
 document.getElementById('contact-form').addEventListener('submit', async (e) => {
-  //fazemos com que a pagina nao refreque 
+  //fazemos com que a pagina nao refresque 
+  
   e.preventDefault();
 
   //values do form 
