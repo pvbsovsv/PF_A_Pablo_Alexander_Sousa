@@ -89,9 +89,9 @@ function mobile() {
     .to(".container-btns", {
       x: 0,
       scrollTrigger: {
-        trigger: "#hero-featured",
+        trigger: "#hero-container",
         start: "50px top",
-        endTrigger: "#hero-featured",
+        endTrigger: "#hero-container",
         end: "50px top",
         scrub: 0,
       },
@@ -100,7 +100,7 @@ function mobile() {
     .to("#hiddenBtnContact", {
       y: 0,
       scrollTrigger: {
-        trigger: "#hero-featured",
+        trigger: "#hero-container",
         start: "250px top",
         endTrigger: "#hero",
         end: "bottom center",
@@ -110,7 +110,7 @@ function mobile() {
     .to("#hiddenBtnMenu", {
       y: 0,
       scrollTrigger: {
-        trigger: "#hero-featured",
+        trigger: "#hero-container",
         start: "250px top",
         endTrigger: "#hero",
         end: "bottom center",
@@ -278,9 +278,9 @@ function desktop() {
     .to(".container-btns", {
       x: 0,
       scrollTrigger: {
-        trigger: "#hero-featured",
+        trigger: "#hero-container",
         start: "50px top",
-        endTrigger: "#hero-featured",
+        endTrigger: "#hero-container",
         end: "50px top",
         scrub: 0,
       },
@@ -289,7 +289,7 @@ function desktop() {
     .to("#hiddenBtnContact", {
       y: 0,
       scrollTrigger: {
-        trigger: "#hero-featured",
+        trigger: "#hero-container",
         start: "250px top",
         endTrigger: "#hero",
         end: "bottom center",
@@ -299,7 +299,7 @@ function desktop() {
     .to("#hiddenBtnMenu", {
       y: 0,
       scrollTrigger: {
-        trigger: "#hero-featured",
+        trigger: "#hero-container",
         start: "250px top",
         endTrigger: "#hero",
         end: "bottom center",
