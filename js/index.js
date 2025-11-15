@@ -11,6 +11,7 @@ let mm = gsap.matchMedia();
 mm.add("(min-width: 601px)", () => {
   desktop();
   indexDesktop();
+  emailContactForm();
   weAreClosed();
 
   return () => {
@@ -21,6 +22,7 @@ mm.add("(min-width: 601px)", () => {
 mm.add("(max-width:600px)", () => {
   mobile();
   indexMobile();
+  emailContactForm();
   weAreClosed();
 
   return () => {
@@ -606,6 +608,57 @@ function indexMobile() {
     },
   });
 }
+
+//email contact form
+
+function emailContactForm(){
+  
+  document.getElementById('contact-form').addEventListener('submit', async (e) => {
+    //fazemos com que a pagina nao refresque 
+    
+    e.preventDefault();
+  
+    //values do form 
+  
+    const name = document.getElementById('name').value
+    const email = document.getElementById('email').value
+    const phone = document.getElementById('phone').value
+    const project = document.getElementById('project').value
+  
+    //Status para mostrar ao cliente
+    const status = document.getElementById('status'); 
+    status.textContent = 'Sending Request..'; 
+  
+    try {
+      
+        
+    const response = await fetch("http://localhost:3000/send-email", {
+      method: 'POST', 
+      headers: {'Content-Type': 'application/json'}, 
+      body: JSON.stringify({name, email, phone, project}),
+    }); 
+  
+    const result = await response.json()
+  
+  
+    if (result.success){status.textContent = 'Message sent successfully!'}
+  
+    else{status.textContent = 'Not able to send message.'}
+  
+    } 
+    
+    catch (error) {
+      console.error('Error:', error);
+        status.textContent = 'Error sending message. Please try again later.';
+    }
+  
+  
+    
+  })
+}
+
+
+
 
 function killAllTweens() {
   // Kill all tweens on all targets
