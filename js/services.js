@@ -35,23 +35,6 @@ console.log("mobile version loaded.");
  function servicesDesktop() {
   console.log("desktop version loaded.");
 
-
-   //SECTION > Our services Div > Parallax Effect
-
-  gsap.set("#parallax-services", { y: "-25%" });
-
-  gsap.to("#parallax-services", {
-    y: "25%",
-    ease: "none",
-    scrollTrigger: {
-      trigger: "#parallax-services-container",
-      start: "top bottom",
-      end: "bottom top",
-      scrub: 1,
-    },
-  });
-
-
   // SECTION > Areas Services
 
   const areaTitles = document.getElementsByClassName("areaTitle")
