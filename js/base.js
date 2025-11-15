@@ -436,7 +436,7 @@ document.getElementById('contact-form').addEventListener('submit', async (e) => 
   try {
     
       
-  const response = await fetch("https://wlx-backend-mailer.onrender.com", {
+  const response = await fetch("https://wlx-backend-mailer.onrender.com/send-email", {
     method: 'POST', 
     headers: {'Content-Type': 'application/json'}, 
     body: JSON.stringify({name, email, phone, project}),
