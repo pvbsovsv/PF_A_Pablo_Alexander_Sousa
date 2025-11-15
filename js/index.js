@@ -632,7 +632,7 @@ function emailContactForm(){
     try {
       
         
-    const response = await fetch("http://localhost:3000/send-email", {
+    const response = await fetch("https://wlx-backend-mailer.onrender.com", {
       method: 'POST', 
       headers: {'Content-Type': 'application/json'}, 
       body: JSON.stringify({name, email, phone, project}),
