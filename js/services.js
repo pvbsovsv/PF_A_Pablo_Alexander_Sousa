@@ -50,19 +50,19 @@ console.log("mobile version loaded.");
 
   gsap.to(areaTitles,  {y:0, opacity:1, 
     scrollTrigger: {
-      trigger: "#parallax-services-container",
+      trigger: "#services-hero",
       start:"center center",
       scrub:2,
     }})
   gsap.to(areaTexts,  {y:0, opacity:1, 
     scrollTrigger: {
-      trigger: "#parallax-services-container",
+      trigger: "#services-hero",
       start:"center center",
       scrub:2,
     }})
   gsap.to(areaImages,  {y:0, opacity:1, 
     scrollTrigger: {
-      trigger: "#parallax-services-container",
+      trigger: "#services-hero",
       start:"center center",
       scrub:2,
     }})
