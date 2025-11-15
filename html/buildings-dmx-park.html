@@ -110,81 +110,85 @@
             </button>
           </aside>
           <!-- Contact form -->
-          <section id="contact-form-container">
-            <div
-              id="contact-form"
-              class="container-fluid bg-altdark p-4 d-flex flex-column justify-content-around"
-            >
-              <div class="row align-items-center">
-                <div class="col-10">
-                  <h2 class="display-4">Project enquiry</h2>
-                </div>
-                <div class="col-2 d-flex justify-content-end">
-                  <button class="btn btn-sm close-button-form">Close</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-8 my-3">
-                  <p>
-                    To begin, please tell us a bit about your project. This
-                    helps us ensure our building services align with your needs.
-                    Once we’ve reviewed the details, our team will be in touch
-                    within 5 business days to outline the next steps. Make sure
-                    to include important details in your proposal.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <form name="contactForm" action="" method="post">
-                    <fieldset>
-                      <legend>Your Details</legend>
-                      <label for="name">Name</label>
-                      <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Your Name"
-                      />
-                      <label for="email">Email Address</label>
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Your Email Address"
-                      />
-                      <label for="phone">Phone Number</label>
-                      <input
-                        type="tel"
-                        name="phone"
-                        id="phone"
-                        placeholder="921 234 567"
-                      />
-                    </fieldset>
-                    <fieldset>
-                      <legend>Tells us about your project</legend>
-                      <textarea
-                        name="project"
-                        id="project-outline-form"
-                        placeholder="What's your idea?"
-                      ></textarea>
-                    </fieldset>
-                    <div class="row d-flex justify-content-end my-3">
-                      <div class="col-1">
-                        <button
-                          type="submit"
-                          id="form-submitBtn"
-                          class="btn btn-danger"
-                        >
-                          Send
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
+      <section id="contact-form-container">
+        <div
+          id="contact-form"
+          class="container-fluid bg-altdark p-4 d-flex flex-column justify-content-around"
+        >
+          <div class="row align-items-center">
+            <div class="col-10">
+              <h2 class="display-4">Project enquiry</h2>
             </div>
-          </section>
+            <div class="col-2 d-flex justify-content-end">
+              <button class="btn btn-sm close-button-form">Close</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8 my-3">
+              <p>
+                To begin, please tell us a bit about your project. This helps us
+                ensure our building services align with your needs. Once we’ve
+                reviewed the details, our team will be in touch within 5
+                business days to outline the next steps. Make sure to include
+                important details in your proposal.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <form name="contact-form" method="post">
+                <fieldset>
+                  <legend>Your Details</legend>
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email Address"
+                    required
+                  />
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="921 234 567"
+                    required
+                  />
+                </fieldset>
+                <fieldset>
+                  <legend>Tells us about your project</legend>
+                  <textarea
+                    name="project"
+                    id="project"
+                    placeholder="What's your idea?"
+                  ></textarea>
+                </fieldset>
+                <div class="row d-flex justify-content-end my-3">
+                  <div class="col-1">
+                    <button
+                      type="submit"
+                      id="form-submitBtn"
+                      class="btn btn-danger"
+                    >
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <p id="status"></p>
+            </div>
+          </div>
+        </div>
+      </section>
           <!-- Top menu -->
           <section
             id="top-nav"

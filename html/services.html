@@ -131,7 +131,7 @@
           </div>
           <div class="row">
             <div class="col">
-              <form name="contactForm" action="" method="post">
+              <form name="contact-form" method="post">
                 <fieldset>
                   <legend>Your Details</legend>
                   <label for="name">Name</label>
@@ -140,6 +140,7 @@
                     name="name"
                     id="name"
                     placeholder="Your Name"
+                    required
                   />
                   <label for="email">Email Address</label>
                   <input
@@ -147,6 +148,7 @@
                     name="email"
                     id="email"
                     placeholder="Your Email Address"
+                    required
                   />
                   <label for="phone">Phone Number</label>
                   <input
@@ -154,13 +156,14 @@
                     name="phone"
                     id="phone"
                     placeholder="921 234 567"
+                    required
                   />
                 </fieldset>
                 <fieldset>
                   <legend>Tells us about your project</legend>
                   <textarea
                     name="project"
-                    id="project-outline-form"
+                    id="project"
                     placeholder="What's your idea?"
                   ></textarea>
                 </fieldset>
@@ -176,6 +179,7 @@
                   </div>
                 </div>
               </form>
+              <p id="status"></p>
             </div>
           </div>
         </div>
