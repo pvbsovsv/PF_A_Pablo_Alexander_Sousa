@@ -104,12 +104,12 @@ font-size: 10rem;
 }
 
 #view-other-nav h3 {
-  font-size: 4rem;
+  font-size: 2.25rem;
   text-transform: capitalize;
 }
 
 .view-description{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 
@@ -210,7 +210,7 @@ font-size: 10rem;
 }
 
 #view-other-nav h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 
@@ -314,12 +314,12 @@ font-size: 8rem;
 }
 
 #view-other-nav h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-transform: capitalize;
 }
 
 .view-description{
-  font-size: 1rem;
+  font-size: 0.85rem;
   text-align: center;
 }
 

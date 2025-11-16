@@ -85,7 +85,7 @@
 }
 
 #view-other-nav h3 {
-  font-size: 4rem;
+  font-size: 2.25rem;
   text-transform: capitalize;
 }
 
@@ -157,7 +157,7 @@
 }
 
 #view-other-nav h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 
@@ -231,12 +231,12 @@
 }
 
 #view-other-nav h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-transform: capitalize;
 }
 
 .view-description{
-  font-size: 1rem;
+  font-size: 0.85rem;
   text-align: center;
 }
   

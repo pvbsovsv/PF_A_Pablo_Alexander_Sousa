@@ -66,6 +66,10 @@ font-size: 10rem;
   content: "(0";
 }
 
+.method-text-1, .method-text-2 {
+  width: 100%;
+}
+
 
 /* backgrounds for each step */
 
@@ -123,12 +127,12 @@ font-size: 10rem;
 }
 
 #view-other-nav h3 {
-  font-size: 4rem;
+  font-size: 2.25rem;
   text-transform: capitalize;
 }
 
 .view-description{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 
@@ -196,12 +200,12 @@ font-size: 7rem;
 }
 
 #view-other-nav h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 
 .view-description{
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -275,12 +279,12 @@ font-size: 4rem;
 }
 
 #view-other-nav h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-transform: capitalize;
 }
 
 .view-description{
-  font-size: 1rem;
+  font-size: 0.85rem;
   text-align: center;
 }
 
