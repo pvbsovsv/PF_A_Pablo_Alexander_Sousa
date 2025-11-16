@@ -12,7 +12,7 @@
     <link rel="icon" href="../images/favicon/wlx.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../css/main.min.css" />
     <link rel="stylesheet" href="../css/style-base.css" />
-    <link rel="stylesheet" href="../css/style-tcs.css">
+    <link rel="stylesheet" href="../css/style-tcs.css" />
     <title>WLX | T&Cs</title>
   </head>
   <body>
@@ -104,82 +104,88 @@
           Menu
         </button>
       </aside>
-      <!-- Contact form -->
+      <!-- Contact Form -->
       <section id="contact-form-container">
         <div
           id="contact-form"
-          class="container-fluid bg-altdark p-4 d-flex flex-column justify-content-around"
+          class="container-fluid bg-altdark p-3 p-md-5 d-flex flex-column"
         >
-          <div class="row align-items-center">
-            <div class="col-10">
-              <h2 class="display-4">Project enquiry</h2>
-            </div>
-            <div class="col-2 d-flex justify-content-end">
+          <!-- header row -->
+          <div class="row mb-4">
+            <div
+              class="col-12 d-flex align-items-center justify-content-between"
+            >
+              <h2 class="">Project enquiry</h2>
               <button class="btn btn-sm close-button-form">Close</button>
             </div>
           </div>
-          <div class="row">
-            <div class="col-8 my-3">
-              <p>
-                To begin, please tell us a bit about your project. This helps us
-                ensure our building services align with your needs. Once we’ve
-                reviewed the details, our team will be in touch within 5
-                business days to outline the next steps. Make sure to include
-                important details in your proposal.
-              </p>
+          <div class="d-flex flex-column justify-content-between flex-grow-1">
+            <!-- description row -->
+            <div class="row">
+              <div class="col-12 col-lg-8 contact-paragraph my-1">
+                <p>
+                  To begin, please tell us a bit about your project. This helps
+                  us ensure our building services align with your needs. Once
+                  we’ve reviewed the details, our team will be in touch within 5
+                  business days to outline the next steps. Make sure to include
+                  important details in your proposal.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <form name="contact-form" method="post">
-                <fieldset>
-                  <legend>Your Details</legend>
-                  <label for="name">Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                  <label for="email">Email Address</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Your Email Address"
-                    required
-                  />
-                  <label for="phone">Phone Number</label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    id="phone"
-                    placeholder="921 234 567"
-                    required
-                  />
-                </fieldset>
-                <fieldset>
-                  <legend>Tells us about your project</legend>
-                  <textarea
-                    name="project"
-                    id="project"
-                    placeholder="What's your idea?"
-                  ></textarea>
-                </fieldset>
-                <div class="row d-flex justify-content-end my-3">
-                  <div class="col-1">
-                    <button
-                      type="submit"
-                      id="form-submitBtn"
-                      class="btn btn-danger"
-                    >
-                      Send
-                    </button>
+
+            <!-- form row -->
+            <div class="row d-flex">
+              <div class="col-12">
+                <form name="contact-form" method="post">
+                  <fieldset class="mb-4">
+                    <legend class="mb-3">Your Details</legend>
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <label for="email">Email Address</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email Address"
+                      required
+                    />
+                    <label for="phone">Phone Number</label>
+                    <input
+                      type="tel"
+                      name="phone"
+                      id="phone"
+                      placeholder="921 234 567"
+                      required
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <legend class="mb-4">Tells us about your project</legend>
+                    <textarea
+                      name="project"
+                      id="project"
+                      placeholder="What's your idea?"
+                    ></textarea>
+                  </fieldset>
+                  <div
+                    class="row d-flex justify-content-center mt-3 align-self-end"
+                  >
+                    <div class="col-12">
+                      <p id="status" class=""></p>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" id="form-submitBtn" class="btn">
+                        Send Enquiry
+                      </button>
+                    </div>
                   </div>
-                </div>
-              </form>
-              <p id="status"></p>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -263,18 +269,17 @@
             <p>
               By accessing the website at
               <a href="https://www.theworkshop.lx.com">Workshop LX</a> you are
-              agreeing to be bound by these terms of service, all applicable laws
-              and regulations, and agree that you are responsible for compliance
-              with any applicable local laws. If you do not agree with any of
-              these terms, you are prohibited from using or accessing this site.
-              The materials contained in this website are protected by applicable
-              copyright and trademark law.
+              agreeing to be bound by these terms of service, all applicable
+              laws and regulations, and agree that you are responsible for
+              compliance with any applicable local laws. If you do not agree
+              with any of these terms, you are prohibited from using or
+              accessing this site. The materials contained in this website are
+              protected by applicable copyright and trademark law.
             </p>
           </div>
         </div>
         <div class="row m-2 p-2 flex-column">
           <div class="col">
-
             <h2 class="mb-3">Use License</h2>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
@@ -290,22 +295,22 @@
                 display (commercial or non-commercial);
               </li>
               <li class="list-group-item">
-                attempt to decompile or reverse engineer any software contained on
-                Workshop LX website;
+                attempt to decompile or reverse engineer any software contained
+                on Workshop LX website;
               </li>
               <li class="list-group-item">
                 remove any copyright or other proprietary notations from the
                 materials; or
               </li>
               <li class="list-group-item">
-                transfer the materials to another person or 'mirror' the materials
-                on any other server.
+                transfer the materials to another person or 'mirror' the
+                materials on any other server.
               </li>
               <li class="list-group-item">
                 This licence shall automatically terminate if you violate any of
                 these restrictions and may be terminated by Workshop LX at any
-                time. Upon terminating your viewing of these materials or upon the
-                termination of this licence, you must destroy any downloaded
+                time. Upon terminating your viewing of these materials or upon
+                the termination of this licence, you must destroy any downloaded
                 materials in your possession whether in electronic or printed
                 format.
               </li>
@@ -314,37 +319,36 @@
         </div>
         <div class="row m-2 p-2 flex-column">
           <div class="col">
-
             <h2 class="mb-3">Disclaimer</h2>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                The materials on Workshop LX's website are provided on an 'as is'
-                basis. Workshop LX makes no warranties, expressed or implied, and
-                hereby disclaims and negates all other warranties including,
-                without limitation, implied warranties or conditions of
-                merchantability, fitness for a particular purpose, or
+                The materials on Workshop LX's website are provided on an 'as
+                is' basis. Workshop LX makes no warranties, expressed or
+                implied, and hereby disclaims and negates all other warranties
+                including, without limitation, implied warranties or conditions
+                of merchantability, fitness for a particular purpose, or
                 non-infringement of intellectual property or other violation of
                 rights.
               </li>
               <li class="list-group-item">
-                Further, Workshop LX does not warrant or make any representations
-                concerning the accuracy, likely results, or reliability of the use
-                of the materials on its website or otherwise relating to such
-                materials or on any sites linked to this site.
+                Further, Workshop LX does not warrant or make any
+                representations concerning the accuracy, likely results, or
+                reliability of the use of the materials on its website or
+                otherwise relating to such materials or on any sites linked to
+                this site.
               </li>
             </ul>
           </div>
         </div>
         <div class="row m-2 p-2 flex-column">
           <div class="col">
-
             <h2 class="mb-3">Limitations</h2>
             <p>
               In no event shall Workshop LX or its suppliers be liable for any
-              damages (including, without limitation, damages for loss of data or
-              profit, or due to business interruption) arising out of the use or
-              inability to use the materials on Workshop LX's website, even if
-              Workshop LX or a Workshop LX authorised representative has been
+              damages (including, without limitation, damages for loss of data
+              or profit, or due to business interruption) arising out of the use
+              or inability to use the materials on Workshop LX's website, even
+              if Workshop LX or a Workshop LX authorised representative has been
               notified orally or in writing of the possibility of such damage.
               Because some jurisdictions do not allow limitations on implied
               warranties, or limitations of liability for consequential or
@@ -354,7 +358,6 @@
         </div>
         <div class="row m-2 p-2 flex-column">
           <div class="col">
-
             <h2 class="mb-3">Accuracy of materials</h2>
             <p>
               The materials appearing on Workshop LX's website could include
@@ -368,30 +371,28 @@
         </div>
         <div class="row m-2 p-2 flex-column">
           <div class="col">
-
             <h2 class="mb-3">Links</h2>
             <p>
-              Workshop LX has not reviewed all of the sites linked to its website
-              and is not responsible for the contents of any such linked site. The
-              inclusion of any link does not imply endorsement by Workshop LX of
-              the site. Use of any such linked website is at the user's own risk.
+              Workshop LX has not reviewed all of the sites linked to its
+              website and is not responsible for the contents of any such linked
+              site. The inclusion of any link does not imply endorsement by
+              Workshop LX of the site. Use of any such linked website is at the
+              user's own risk.
             </p>
           </div>
         </div>
         <div class="row m-2 p-2 flex-column">
           <div class="col">
-
             <h2 class="mb-3">Modifications</h2>
             <p>
-              Workshop LX may revise these terms of service for its website at any
-              time without notice. By using this website you are agreeing to be
-              bound by the then current version of these terms of service.
+              Workshop LX may revise these terms of service for its website at
+              any time without notice. By using this website you are agreeing to
+              be bound by the then current version of these terms of service.
             </p>
           </div>
         </div>
         <div class="row m-2 p-2 flex-column">
           <div class="col">
-
             <h2 class="mb-3">Governing Law</h2>
             <p>
               These terms and conditions are governed by and construed in
@@ -420,7 +421,9 @@
               class="img-fluid ft-logo my-5"
             />
           </div>
-          <div class="col footer-nav-container text-lowercase d-flex justify-content-center">
+          <div
+            class="col footer-nav-container text-lowercase d-flex justify-content-center"
+          >
             <nav id="footer-navigation">
               <h4 class="">Navigation</h4>
               <ul class="list-inline d-flex flex-column">

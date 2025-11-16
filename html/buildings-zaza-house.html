@@ -109,82 +109,89 @@
               Menu
             </button>
           </aside>
-          <!-- Contact form -->
+                <!-- Contact Form -->
       <section id="contact-form-container">
         <div
           id="contact-form"
-          class="container-fluid bg-altdark p-4 d-flex flex-column justify-content-around"
+          class="container-fluid bg-altdark p-3 p-md-5 d-flex flex-column"
         >
-          <div class="row align-items-center">
-            <div class="col-10">
-              <h2 class="display-4">Project enquiry</h2>
-            </div>
-            <div class="col-2 d-flex justify-content-end">
+        <!-- header row -->
+          <div class="row mb-4">
+            <div class="col-12 d-flex align-items-center justify-content-between">
+              <h2 class="">Project enquiry</h2>
               <button class="btn btn-sm close-button-form">Close</button>
             </div>
           </div>
-          <div class="row">
-            <div class="col-8 my-3">
-              <p>
-                To begin, please tell us a bit about your project. This helps us
-                ensure our building services align with your needs. Once we’ve
-                reviewed the details, our team will be in touch within 5
-                business days to outline the next steps. Make sure to include
-                important details in your proposal.
-              </p>
+          <div class="d-flex flex-column justify-content-between flex-grow-1">
+            <!-- description row -->
+            <div class="row">
+              <div class="col-12 col-lg-8 contact-paragraph my-1">
+                <p>
+                  To begin, please tell us a bit about your project. This helps us
+                  ensure our building services align with your needs. Once we’ve
+                  reviewed the details, our team will be in touch within 5
+                  business days to outline the next steps. Make sure to include
+                  important details in your proposal.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <form name="contact-form" method="post">
-                <fieldset>
-                  <legend>Your Details</legend>
-                  <label for="name">Name</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                  <label for="email">Email Address</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Your Email Address"
-                    required
-                  />
-                  <label for="phone">Phone Number</label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    id="phone"
-                    placeholder="921 234 567"
-                    required
-                  />
-                </fieldset>
-                <fieldset>
-                  <legend>Tells us about your project</legend>
-                  <textarea
-                    name="project"
-                    id="project"
-                    placeholder="What's your idea?"
-                  ></textarea>
-                </fieldset>
-                <div class="row d-flex justify-content-end my-3">
-                  <div class="col-1">
-                    <button
-                      type="submit"
-                      id="form-submitBtn"
-                      class="btn btn-danger"
-                    >
-                      Send
-                    </button>
+  
+            <!-- form row -->
+            <div class="row d-flex">
+              <div class="col-12">
+                <form name="contact-form" method="post">
+                  <fieldset class="mb-4">
+                    <legend class="mb-3">Your Details</legend>
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <label for="email">Email Address</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email Address"
+                      required
+                    />
+                    <label for="phone">Phone Number</label>
+                    <input
+                      type="tel"
+                      name="phone"
+                      id="phone"
+                      placeholder="921 234 567"
+                      required
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <legend class="mb-4">Tells us about your project</legend>
+                    <textarea
+                      name="project"
+                      id="project"
+                      placeholder="What's your idea?"
+                    ></textarea>
+                  </fieldset>
+                  <div class="row d-flex justify-content-center mt-3 align-self-end">
+                    <div class="col-12">
+                      <p id="status" class=""></p>
+                    </div>
+                    <div class="col-12">
+                      <button
+                        type="submit"
+                        id="form-submitBtn"
+                        class="btn"
+                      >
+                        Send Enquiry
+                      </button>
+                    </div>
                   </div>
-                </div>
-              </form>
-              <p id="status"></p>
+                </form>
+
+              </div>
             </div>
           </div>
         </div>
