@@ -1,4 +1,4 @@
-/* SECTION > Hero Landing */
+/* hero landing */
 
 #hero-container {
   overflow: hidden;
@@ -71,7 +71,7 @@
   font-size: 1rem;
 }
 
-/* SECTION >  intro to company */
+/* intro to company */
 
 #company-intro div {
   overflow: hidden;
@@ -92,7 +92,7 @@
   max-height: 750px;
 }
 
-/* SECTION > OUR METHOD */
+/* our method */
 
 #our-method {
   overflow: hidden;
@@ -163,7 +163,92 @@
 
 
 
-/* BREAKPOINT MOBILE  */
+/* tablet breakpoint */
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* hero */
+
+  #hero-links,
+  #top-nav-links {
+    display: none !important;
+  }
+
+  #hero-menu img:last-of-type {
+    display: none;
+  }
+
+  #hero-container h1 {
+    font-size: 2.5rem;
+  }
+
+  #sentence-container {
+    margin-bottom: 5%;
+  }
+
+  /* Intro / about */
+
+  #intro-about p {
+    font-size: 1rem;
+  }
+
+  .frases-intro h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+  }
+
+  /* our method */
+
+  #our-method h2 {
+    font-size: 2.25rem;
+    font-weight: 450;
+  }
+
+  .custom-ol li {
+    font-size: 1rem;
+  }
+
+  /* featured projects */
+
+.featured-title {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+
+
+#featured-projects span{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 650;
+}
+
+/* testimonial */
+
+#testimonial h2 {
+  font-size: 2.25rem;
+  font-weight: 450;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+}
+
+
+.testimonial-img-vert{
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-top: 20px;
+}
+
+}
+
+
+/* mobile breakpoint  */
 
 @media only screen and (max-width: 600px) {
   /* hero */
@@ -242,88 +327,6 @@
   text-transform: uppercase;
 
 }
-
-.testimonial-img-vert{
-  width: 55%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  margin-top: 20px;
-}
-
-}
-
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* hero */
-
-  #hero-links,
-  #top-nav-links {
-    display: none !important;
-  }
-
-  #hero-menu img:last-of-type {
-    display: none;
-  }
-
-  #hero-container h1 {
-    font-size: 2.5rem;
-  }
-
-  #sentence-container {
-    margin-bottom: 5%;
-  }
-
-  /* Intro / about */
-
-  #intro-about p {
-    font-size: 1rem;
-  }
-
-  .frases-intro h2 {
-    font-size: 2.25rem;
-    font-weight: 500;
-    line-height: 1.2;
-
-  }
-
-  /* our method */
-
-  #our-method h2 {
-    font-size: 2.25rem;
-    font-weight: 450;
-  }
-
-  .custom-ol li {
-    font-size: 1rem;
-  }
-
-  /* featured projects */
-
-.featured-title {
-  font-size: 2.25rem;
-  font-weight: 500;
-}
-
-
-
-#featured-projects span{
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 650;
-}
-
-/* testimonial */
-
-#testimonial h2 {
-  font-size: 2.25rem;
-  font-weight: 450;
-}
-
-.testimonial-text {
-  font-size: 1rem;
-}
-
 
 .testimonial-img-vert{
   width: 55%;

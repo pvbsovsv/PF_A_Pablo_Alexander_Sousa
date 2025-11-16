@@ -415,6 +415,9 @@ function killAllTweens() {
 
 //email contact form
 
+
+//email contact form
+
 function emailContactForm() {
 
 document.getElementById('contact-form').addEventListener('submit', async (e) => {
@@ -436,7 +439,7 @@ document.getElementById('contact-form').addEventListener('submit', async (e) => 
   try {
     
       
-  const response = await fetch("https://wlx-backend-mailer.onrender.com/send-email", {
+  const response = await fetch("http://localhost:3000/send-email", {
     method: 'POST', 
     headers: {'Content-Type': 'application/json'}, 
     body: JSON.stringify({name, email, phone, project}),
@@ -445,7 +448,7 @@ document.getElementById('contact-form').addEventListener('submit', async (e) => 
   const result = await response.json()
 
 
-  if (result.success){status.textContent = 'Message sent successfully!'}
+  if (result.success){status.innerHTML = 'Message sent successfully!'}
 
   else{status.textContent = 'Not able to send message.'}
 

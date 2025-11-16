@@ -611,52 +611,58 @@ function indexMobile() {
 
 //email contact form
 
-function emailContactForm(){
-  
-  document.getElementById('contact-form').addEventListener('submit', async (e) => {
-    //fazemos com que a pagina nao refresque 
-    
-    e.preventDefault();
-  
-    //values do form 
-  
-    const name = document.getElementById('name').value
-    const email = document.getElementById('email').value
-    const phone = document.getElementById('phone').value
-    const project = document.getElementById('project').value
-  
-    //Status para mostrar ao cliente
-    const status = document.getElementById('status'); 
-    status.textContent = 'Sending Request..'; 
-  
-    try {
-      
-        
-    const response = await fetch("https://wlx-backend-mailer.onrender.com/send-email", {
-      method: 'POST', 
-      headers: {'Content-Type': 'application/json'}, 
-      body: JSON.stringify({name, email, phone, project}),
-    }); 
-  
-    const result = await response.json()
-  
-  
-    if (result.success){status.textContent = 'Message sent successfully!'}
-  
-    else{status.textContent = 'Not able to send message.'}
-  
-    } 
-    
-    catch (error) {
-      console.error('Error:', error);
-        status.textContent = 'Error sending message. Please try again later.';
-    }
-  
-  
-    
-  })
-}
 
+function emailContactForm() {
+
+document.getElementById('contact-form').addEventListener('submit', async (e) => {
+  //fazemos com que a pagina nao refresque 
+  
+  e.preventDefault();
+
+  //values do form 
+
+  const name = document.getElementById('name').value
+  const email = document.getElementById('email').value
+  const phone = document.getElementById('phone').value
+  const project = document.getElementById('project').value
+
+  //Status para mostrar ao user
+  const status = document.getElementById('status'); 
+  status.textContent = 'Sending Request..'; 
+
+  try {
+  
+  const response = await fetch("http://localhost:3000/send-email", {
+    method: 'POST', 
+    headers: {'Content-Type': 'application/json'}, 
+    body: JSON.stringify({name, email, phone, project}),
+  }); 
+
+  const result = await response.json()
+
+
+  if (result.success){
+    status.innerHTML = '✅ Message sent successfully!'
+    status.classList.add("status-success")
+  }
+
+  else{status.innerHTML = '❌ Not able to send message.'
+    status.classList.add("status-unsuccess")
+  }
+
+  } 
+  
+  catch (error) {
+    console.error('Error:', error);
+      status.textContent = '⚠️ Error sending message. Please try again later.';
+      status.classList.add("status-error")
+  }
+
+
+  
+})
+
+}
 
 
 
