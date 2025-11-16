@@ -35,26 +35,6 @@
 }
 
 
-/* paralllax img */
-
-#parallax-services-container {
-  overflow: hidden;
-  color: white;
-  height: 90vh;
-}
-
-#parallax-services {
-  height: 100%;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),  url(../images/services-img/builders-1.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-#parallax-services div {
-  height: 100%;
-  width: 100%;
-
-}
 
 
 /* Areas of service */
@@ -113,11 +93,6 @@
   font-size: 1rem;
 }
 
-/* parallax */
-
-#parallax-services-container span {
-  font-size: 4rem;
-}
 
 /* Areas of service */
 #areas-service h2 {
@@ -164,12 +139,6 @@
   font-size: 0.85rem;
 }
 
-/* parallax */
-
-
-#parallax-services-container {
-  display: none;
-}
 
 /* Areas of service */
 

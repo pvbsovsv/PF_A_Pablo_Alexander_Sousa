@@ -1,0 +1,245 @@
+
+
+
+/* intro services */
+
+#our-method-intro {
+
+  height: 95vh;
+  overflow-y: hidden;
+
+}
+
+#our-method-hero {
+  height: 100%;
+  width: 100%;
+}
+
+#img-landing {
+  height: 100%;
+  max-height: 65vh;
+  background-image: url(../images/foundation.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#our-method-intro h1 {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+#our-method-intro p {
+  font-size: 1.25rem;
+}
+
+
+/* our method steps */
+#our-method-steps h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+
+}
+#our-method-steps h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f8f8f8;
+
+}
+
+#our-method-steps p {
+  font-size: 1.25rem;
+  color: #f8f8f8;
+
+}
+
+.method-number {
+font-size: 10rem;
+  color: #f8f8f8da;
+}
+.method-number::after{
+  content: ")";
+}
+.method-number::before{
+  content: "(0";
+}
+
+
+/* backgrounds for each step */
+
+.method-bg-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/method-img/method-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.method-bg-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/method-img/method-2.jpg");
+  background-position: center;
+  background-position-y: -60px;
+  background-size: cover;
+}
+
+.method-bg-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/method-img/method-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.method-bg-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/method-img/method-4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.method-bg-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../images/method-img/method-5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/* view Project Navigation */
+
+#view-project div.col p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#view-project div.col p::after{
+  content: ")";
+}
+#view-project div.col p::before{
+  content: "(";
+}
+
+#view-project h3 {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.view-description{
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+
+/* BREAKPOINT MOBILE  */
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+/* intro services */
+
+#img-landing {
+  max-height: 55%;
+}
+
+
+#our-method-intro h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#our-method-intro p {
+  font-size: 1rem;
+}
+
+
+/* our method steps */
+
+#our-method-steps h2 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+#our-method-steps h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#our-method-steps p {
+  font-size: 1rem;
+}
+
+.method-number {
+font-size: 7rem;
+
+}
+
+/* view next project */
+
+.view-description{
+  font-size: 1rem;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+/* intro services */
+
+#our-method-intro {
+
+  height: 75vh !important;
+
+}
+
+#img-landing {
+  max-height: 55%;
+}
+
+
+#our-method-intro h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#our-method-intro p {
+  font-size: 0.85rem;
+}
+
+  
+/* our method steps */
+
+#our-method-steps h2 {
+  font-size: 1.85rem;
+  font-weight: 500;
+}
+#our-method-steps h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#our-method-steps p {
+  font-size: 0.85rem;
+}
+
+.method-number {
+font-size: 4rem;
+
+}
+
+/* view next project */
+
+.view-description{
+  font-size: 0.7rem;
+}
+
+
+
+}
