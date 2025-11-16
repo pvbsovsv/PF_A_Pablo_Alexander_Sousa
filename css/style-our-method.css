@@ -107,28 +107,28 @@ font-size: 10rem;
 
 
 
-/* view Project Navigation */
+/* view other page Navigation */
 
-#view-project div.col p {
+.view-small-tt{
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: bold;
 }
 
-#view-project div.col p::after{
+.view-small-tt::after{
   content: ")";
 }
-#view-project div.col p::before{
+.view-small-tt::before{
   content: "(";
 }
 
-#view-project h3 {
+#view-other-nav h3 {
   font-size: 4rem;
   text-transform: capitalize;
 }
 
 .view-description{
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -178,11 +178,33 @@ font-size: 7rem;
 
 }
 
-/* view next project */
+
+
+/* view other page Navigation */
+
+.view-small-tt{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.view-small-tt::after{
+  content: ")";
+}
+.view-small-tt::before{
+  content: "(";
+}
+
+#view-other-nav h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
 
 .view-description{
-  font-size: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
 }
+
 
 
 
@@ -234,11 +256,34 @@ font-size: 4rem;
 
 }
 
-/* view next project */
+
+
+
+/* view other page Navigation */
+
+.view-small-tt{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.view-small-tt::after{
+  content: ")";
+}
+.view-small-tt::before{
+  content: "(";
+}
+
+#view-other-nav h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
 
 .view-description{
-  font-size: 0.7rem;
+  font-size: 1rem;
+  text-align: center;
 }
+
 
 
 
