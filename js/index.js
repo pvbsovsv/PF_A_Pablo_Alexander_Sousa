@@ -13,7 +13,6 @@ mm.add("(min-width: 601px)", () => {
   indexDesktop();
   emailContactForm();
   weAreClosed();
-  iAmCookie();
 
   return () => {
     killAllTweens();
@@ -25,7 +24,6 @@ mm.add("(max-width:600px)", () => {
   indexMobile();
   emailContactForm();
   weAreClosed();
-  iAmCookie();
 
   return () => {
     killAllTweens();
@@ -666,83 +664,6 @@ document.getElementById('contact-form').addEventListener('submit', async (e) => 
 
 }
 
-
-//funçao para cookie
-
-function iAmCookie() {
-
-// cookie functions
-
-function setCookie(cname, cvalue, exdays) {
-  const d = new Date();
-  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-  let expires = "expires="+d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-
-function getCookie(cname) {
-  let name = cname + "=";
-  let ca = document.cookie.split(';');
-  for(let i = 0; i < ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-function checkCookie() {
-  let user = getCookie("username");
-  if (user != "") {
-    alert("Welcome again " + user);
-  } else {
-    user = prompt("Please enter your name:", "");
-    if (user != "" && user != null) {
-      setCookie("username", user, 365);
-    }
-  }
-} 
-
-function eraseCookie(name) {
-    document.cookie = name+"=; Max-Age=-99999999";
-}
-
-// if the cookie does not exist, we show banner
-
-window.onload = () =>{
-  if(!getCookie("iAmCookie(siteconsent)")) {
-    document.getElementById("cookie-banner-container").style.display="block";
-  }
-}
-
-//accept cookie
-
-document.getElementById("acceptCookies").addEventListener("click", () => {
-  //set cookie
-  setCookie("iAmCookie(siteconsent)", "accepted", 365);
-  document.getElementById("cookie-banner-container").style.display="none";
-})
-
-
-
-//decline cookie
-
-document.getElementById("declineCookies").addEventListener("click", () => {
-  //we do not set cookie
-  document.getElementById("cookie-banner-container").style.display="none"
-
-})
-
-
-
-
-
-}
 
 
 function killAllTweens() {

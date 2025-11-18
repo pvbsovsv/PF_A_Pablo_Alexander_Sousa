@@ -371,7 +371,7 @@ footer address p, footer address p a {
 
   #contact-form {
   height: 100vh;
-  width: 100%;
+  width: 100vw !important;
 }
 
 #contact-form h2 {
