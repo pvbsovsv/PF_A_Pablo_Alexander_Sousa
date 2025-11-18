@@ -13,6 +13,7 @@ weAreClosed();
 mm.add("(min-width: 601px)", () => {
   desktop();
   emailContactForm();
+  iAmCookie();
 
   return () => {
     killAllTweens();
@@ -22,6 +23,7 @@ mm.add("(min-width: 601px)", () => {
 mm.add("(max-width:600px)", () => {
   mobile();
   emailContactForm();
+  iAmCookie();
 
   return () => {
     killAllTweens();
