@@ -17,12 +17,10 @@
   </head>
   <body>
     <main>
-      <!-- Project -->
       <section id="building-zaza-house">
         <div id="building-intro">
-          <!--  Navbar is inside to create effect in this particular page-->
+          <!--  hidden menu tem q passar para o main por causa do efeito desejado-->
           <div id="navbar">
-            <!--  Navbar / hidden menu-->
             <nav
               class="container-fluid bg-altdark p-4 d-flex flex-column flex-wrap justify-content-between"
             >
@@ -47,18 +45,19 @@
                     <li class="list-inline-item display-3 d-flex flex-column">
                       <a class="nav-a1" href="./index.html">Home</a>
                       <a class="nav-a2" href="./index.html">Home</a>
+                      <!-- 2 anchors / efeito com gsap -->
                     </li>
                     <li class="list-inline-item display-3 d-flex flex-column">
                       <a class="nav-a1" href="./buildings.html">buildings</a>
                       <a class="nav-a2" href="./buildings.html">buildings</a>
                     </li>
                     <li class="list-inline-item display-3 d-flex flex-column">
-                      <a class="nav-a1" href="#">about</a>
-                      <a class="nav-a2" href="#">about</a>
+                      <a class="nav-a1" href="./about.html">about</a>
+                      <a class="nav-a2" href="./about.html">about</a>
                     </li>
                     <li class="list-inline-item display-3 d-flex flex-column">
-                      <a class="nav-a1" href="#">Method</a>
-                      <a class="nav-a2" href="#">Method</a>
+                      <a class="nav-a1" href="./our-method.html">Method</a>
+                      <a class="nav-a2" href="./our-method.html">Method</a>
                     </li>
                     <li class="list-inline-item display-3 d-flex flex-column">
                       <a class="nav-a1" href="./services.html">Services</a>
@@ -91,7 +90,7 @@
               </div>
             </nav>
           </div>
-          <!-- hidden button containers -->
+          <!-- hidden buttons -->
           <aside
             class="container-btns d-flex justify-content-end p-4"
             aria-label="Page controls"
@@ -109,94 +108,97 @@
               Menu
             </button>
           </aside>
-                <!-- Contact Form -->
-      <section id="contact-form-container">
-        <div
-          id="contact-form"
-          class="container-fluid bg-altdark p-3 p-md-5 d-flex flex-column"
-        >
-        <!-- header row -->
-          <div class="row mb-4">
-            <div class="col-12 d-flex align-items-center justify-content-between">
-              <h2 class="">Project enquiry</h2>
-              <button class="btn btn-sm close-button-form">Close</button>
-            </div>
-          </div>
-          <div class="d-flex flex-column justify-content-between flex-grow-1">
-            <!-- description row -->
-            <div class="row">
-              <div class="col-12 col-lg-8 contact-paragraph my-1">
-                <p>
-                  To begin, please tell us a bit about your project. This helps us
-                  ensure our building services align with your needs. Once we’ve
-                  reviewed the details, our team will be in touch within 5
-                  business days to outline the next steps. Make sure to include
-                  important details in your proposal.
-                </p>
+          <!-- contact form -->
+          <section id="contact-form-container">
+            <div
+              id="contact-form"
+              class="container-fluid bg-altdark p-3 p-md-5 d-flex flex-column"
+            >
+              <!-- header row -->
+              <div class="row mb-4">
+                <div
+                  class="col-12 d-flex align-items-center justify-content-between"
+                >
+                  <h2 class="">Project enquiry</h2>
+                  <button class="btn btn-sm close-button-form">Close</button>
+                </div>
               </div>
-            </div>
-  
-            <!-- form row -->
-            <div class="row d-flex">
-              <div class="col-12">
-                <form name="contact-form" method="post">
-                  <fieldset class="mb-4">
-                    <legend class="mb-3">Your Details</legend>
-                    <label for="name">Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                    <label for="email">Email Address</label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email Address"
-                      required
-                    />
-                    <label for="phone">Phone Number</label>
-                    <input
-                      type="tel"
-                      name="phone"
-                      id="phone"
-                      placeholder="921 234 567"
-                      required
-                    />
-                  </fieldset>
-                  <fieldset>
-                    <legend class="mb-4">Tells us about your project</legend>
-                    <textarea
-                      name="project"
-                      id="project"
-                      placeholder="What's your idea?"
-                    ></textarea>
-                  </fieldset>
-                  <div class="row d-flex justify-content-center mt-3 align-self-end">
-                    <div class="col-12">
-                      <p id="status" class=""></p>
-                    </div>
-                    <div class="col-12">
-                      <button
-                        type="submit"
-                        id="form-submitBtn"
-                        class="btn"
-                      >
-                        Send Enquiry
-                      </button>
-                    </div>
+              <div
+                class="d-flex flex-column justify-content-between flex-grow-1"
+              >
+                <!-- description row -->
+                <div class="row">
+                  <div class="col-12 col-lg-8 contact-paragraph my-1">
+                    <p>
+                      To begin, please tell us a bit about your project. This
+                      helps us ensure our building services align with your
+                      needs. Once we’ve reviewed the details, our team will be
+                      in touch within 5 business days to outline the next steps.
+                      Make sure to include important details in your proposal.
+                    </p>
                   </div>
-                </form>
+                </div>
 
+                <!-- form row -->
+                <div class="row d-flex">
+                  <div class="col-12">
+                    <form name="contact-form" method="post">
+                      <fieldset class="mb-4">
+                        <legend class="mb-3">Your Details</legend>
+                        <label for="name">Name</label>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Your Name"
+                          required
+                        />
+                        <label for="email">Email Address</label>
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="Your Email Address"
+                          required
+                        />
+                        <label for="phone">Phone Number</label>
+                        <input
+                          type="tel"
+                          name="phone"
+                          id="phone"
+                          placeholder="921 234 567"
+                          required
+                        />
+                      </fieldset>
+                      <fieldset>
+                        <legend class="mb-4">
+                          Tells us about your project
+                        </legend>
+                        <textarea
+                          name="project"
+                          id="project"
+                          placeholder="What's your idea?"
+                        ></textarea>
+                      </fieldset>
+                      <div
+                        class="row d-flex justify-content-center mt-3 align-self-end"
+                      >
+                        <div class="col-12">
+                          <p id="status" class=""></p>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" id="form-submitBtn" class="btn">
+                            Send Enquiry
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-          <!-- Top menu -->
+          </section>
+          <!-- top menu -->
           <section
             id="top-nav"
             class="container-fluid p-3 d-flex flex-column justify-content-center align-items-around"
@@ -239,8 +241,8 @@
                     <a href="./about.html" class="top-a2">about</a>
                   </li>
                   <li class="list-inline-item p-0 d-flex flex-column">
-                    <a href="#" class="top-a1">method</a>
-                    <a href="#" class="top-a2">method</a>
+                    <a href="./our-method.html" class="top-a1">method</a>
+                    <a href="./our-method.html" class="top-a2">method</a>
                   </li>
                   <li class="list-inline-item p-0 d-flex flex-column">
                     <a href="./services.html" class="top-a1">services</a>
@@ -276,16 +278,26 @@
                   <h1>Zaza House</h1>
                 </div>
               </div>
-              <div class="row d-flex justify-content-sm-around justify-content-center p-2">
-                <div class="col text-center text-md-start"><p>toledo, CLM</p></div>
+              <div
+                class="row d-flex justify-content-sm-around justify-content-center p-2"
+              >
+                <div class="col text-center text-md-start">
+                  <p>toledo, CLM</p>
+                </div>
                 <div class="col text-center"><p>spain</p></div>
-                <div class="col text-center text-sm-end"><p>(scroll down)</p></div>
+                <div class="col text-center text-sm-end">
+                  <p>(scroll down)</p>
+                </div>
               </div>
             </div>
           </section>
           <section class="container-fluid">
-            <div class="row d-flex justify-content-center justify-content-md-end flex-wrap p-2">
-              <div class="col-11 col-md-8 col-lg-6 d-flex flex-column flex-wrap">
+            <div
+              class="row d-flex justify-content-center justify-content-md-end flex-wrap p-2"
+            >
+              <div
+                class="col-11 col-md-8 col-lg-6 d-flex flex-column flex-wrap"
+              >
                 <div class="row mb-0 mb-sm-4">
                   <div class="col">
                     <h2 class="">Project type</h2>
@@ -322,7 +334,7 @@
         </div>
       </section>
       <section id="building-gallery" class="container-fluid mt-2">
-        <!-- gallery -->
+        <!-- gallery grid -->
         <div class="row my-3">
           <div class="col d-flex justify-content-center align-items-center">
             <img
@@ -359,6 +371,7 @@
           </div>
         </div>
       </section>
+      <!-- next project -->
       <section>
         <nav
           id="next-project"
@@ -384,7 +397,6 @@
         </nav>
       </section>
     </main>
-
     <!-- footer -->
     <footer>
       <div
@@ -422,8 +434,8 @@
                   <a href="./about.html" class="footer-a2">about</a>
                 </li>
                 <li class="list-inline-item d-flex flex-column">
-                  <a href="#" class="footer-a1">Method</a>
-                  <a href="#" class="footer-a2">Method</a>
+                  <a href="./our-method.html" class="footer-a1">Method</a>
+                  <a href="./our-method.html" class="footer-a2">Method</a>
                 </li>
                 <li class="list-inline-item d-flex flex-column">
                   <a href="./services.html" class="footer-a1">Services</a>

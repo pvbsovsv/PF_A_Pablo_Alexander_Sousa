@@ -17,7 +17,7 @@
   </head>
   <body>
     <header id="navbar">
-      <!--  Navbar / hidden menu-->
+      <!-- hidden menu -->
       <nav
         class="container-fluid bg-altdark p-4 d-flex flex-column flex-wrap justify-content-between"
       >
@@ -40,6 +40,7 @@
               <li class="list-inline-item display-3 d-flex flex-column">
                 <a class="nav-a1" href="./index.html">Home</a>
                 <a class="nav-a2" href="./index.html">Home</a>
+                <!-- 2 anchors / efeito com gsap -->
               </li>
               <li class="list-inline-item display-3 d-flex flex-column">
                 <a class="nav-a1" href="./buildings.html">buildings</a>
@@ -50,8 +51,8 @@
                 <a class="nav-a2" href="./about.html">about</a>
               </li>
               <li class="list-inline-item display-3 d-flex flex-column">
-                <a class="nav-a1" href="./about.html#our-method">Method</a>
-                <a class="nav-a2" href="./about.html#our-method">Method</a>
+                <a class="nav-a1" href="./our-method.html">Method</a>
+                <a class="nav-a2" href="./our-method.html">Method</a>
               </li>
               <li class="list-inline-item display-3 d-flex flex-column">
                 <a class="nav-a1" href="./services.html">Services</a>
@@ -85,7 +86,25 @@
       </nav>
     </header>
     <main>
-      <!-- hidden button containers -->
+      <!-- cookie banner -->
+      <div
+        id="cookie-banner-container"
+        class="cookie-banner container-fluid d-flex flex-row align-items-center justify-content-center"
+      >
+        <div class="row">
+          <div class="col-12">
+            <p>
+              This website uses cookies to enhance your browsing experience.
+              <br />By clicking “Accept,” you agree to our use of cookies.
+            </p>
+          </div>
+          <div class="col-12">
+            <button id="acceptCookies" class="btn btn-accept">Accept</button>
+            <button id="declineCookies" class="btn btn-decline">Decline</button>
+          </div>
+        </div>
+      </div>
+      <!-- hidden buttons -->
       <aside
         class="container-btns d-flex justify-content-end p-4"
         aria-label="Page controls"
@@ -103,15 +122,17 @@
           Menu
         </button>
       </aside>
-      <!-- Contact Form -->
+      <!-- contact form -->
       <section id="contact-form-container">
         <div
           id="contact-form"
           class="container-fluid bg-altdark p-3 p-md-5 d-flex flex-column"
         >
-        <!-- header row -->
+          <!-- header row -->
           <div class="row mb-4">
-            <div class="col-12 d-flex align-items-center justify-content-between">
+            <div
+              class="col-12 d-flex align-items-center justify-content-between"
+            >
               <h2 class="">Project enquiry</h2>
               <button class="btn btn-sm close-button-form">Close</button>
             </div>
@@ -121,15 +142,15 @@
             <div class="row">
               <div class="col-12 col-lg-8 contact-paragraph my-1">
                 <p>
-                  To begin, please tell us a bit about your project. This helps us
-                  ensure our building services align with your needs. Once we’ve
-                  reviewed the details, our team will be in touch within 5
+                  To begin, please tell us a bit about your project. This helps
+                  us ensure our building services align with your needs. Once
+                  we’ve reviewed the details, our team will be in touch within 5
                   business days to outline the next steps. Make sure to include
                   important details in your proposal.
                 </p>
               </div>
             </div>
-  
+
             <!-- form row -->
             <div class="row d-flex">
               <div class="col-12">
@@ -169,28 +190,25 @@
                       placeholder="What's your idea?"
                     ></textarea>
                   </fieldset>
-                  <div class="row d-flex justify-content-center mt-3 align-self-end">
+                  <div
+                    class="row d-flex justify-content-center mt-3 align-self-end"
+                  >
                     <div class="col-12">
                       <p id="status" class=""></p>
                     </div>
                     <div class="col-12">
-                      <button
-                        type="submit"
-                        id="form-submitBtn"
-                        class="btn"
-                      >
+                      <button type="submit" id="form-submitBtn" class="btn">
                         Send Enquiry
                       </button>
                     </div>
                   </div>
                 </form>
-
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Hero Landing  -->
+      <!-- hero  -->
       <section id="hero-container">
         <div
           id="hero"
@@ -230,8 +248,8 @@
                   <a href="./about.html" class="hero-a2">about</a>
                 </li>
                 <li class="list-inline-item p-0 d-flex flex-column">
-                  <a href="#" class="hero-a1">method</a>
-                  <a href="#" class="hero-a2">method</a>
+                  <a href="./our-method.html" class="hero-a1">method</a>
+                  <a href="./our-method.html" class="hero-a2">method</a>
                 </li>
                 <li class="list-inline-item p-0 d-flex flex-column">
                   <a href="./services.html" class="hero-a1">services</a>
@@ -251,7 +269,10 @@
             </div>
           </nav>
           <!-- Hero Sentence -->
-          <div id="sentence-container" class="row d-flex flex-row justify-content-between flex-nowrap">
+          <div
+            id="sentence-container"
+            class="row d-flex flex-row justify-content-between flex-nowrap"
+          >
             <div class="col-8 col-sm-8 col-lg-6">
               <h1 id="hero-sentence">
                 We bring to life forward-thinking environments that embody
@@ -266,7 +287,7 @@
           </div>
         </div>
       </section>
-      <!-- Company intro & info  -->
+      <!-- company intro & info  -->
       <section id="company-intro" class="container-xxl mb-4">
         <div id="intro-about" class="mb-4">
           <div
@@ -332,7 +353,7 @@
                 <li class="list-group-item">Built for Life</li>
               </ol>
               <a
-                href="./method.html"
+                href="./our-method.html"
                 class="btn btn-sm btn-altdark align-self-center"
                 >get to know our method</a
               >
@@ -340,7 +361,7 @@
           </div>
         </div>
       </section>
-      <!-- Featured Projects -->
+      <!-- featured projects -->
       <section id="featured-projects" class="container-xxl">
         <div class="row d-flex justify-content-center text-center">
           <div class="col mb-3">
@@ -360,7 +381,7 @@
               class="featured-img d-flex m-2 align-items-center justify-content-between"
             >
               <p class="title-small">Gnótt Museum</p>
-              <p class="title-small" >2018</p>
+              <p class="title-small">2018</p>
             </div>
           </div>
           <div class="col-md-5 featured-img my-2">
@@ -411,7 +432,7 @@
           >
         </div>
       </section>
-      <!--  Testimonial  -->
+      <!--  testimonial  -->
       <section id="testimonial" class="container-xxl my-3">
         <div class="row d-flex justify-content-center text-center my-5">
           <div class="col">
@@ -435,22 +456,26 @@
               process enjoyable and engaging.
             </p>
             <p class="testimonial-text">
-              I never doubted that the end result would reflect my vision, and the outcome speaks
-              volumes about their skill, and dedication."
+              I never doubted that the end result would reflect my vision, and
+              the outcome speaks volumes about their skill, and dedication."
             </p>
-            <p class="title-small"> Sandra, Homeowner from Lisbon </p>
+            <p class="title-small">Sandra, Homeowner from Lisbon</p>
           </div>
           <div
             class="col-lg-5 col-12 d-flex flex-wrap flex-column justify-content-between"
           >
-              <img
-                src="../images/buildings-img/project-5/project5-6.jpg"
-                alt="Photo of Inner Garden"
-                class="img-fluid p-2 testimonial-img testimonial-img-vert"
-              />
+            <img
+              src="../images/buildings-img/project-5/project5-6.jpg"
+              alt="Photo of Inner Garden"
+              class="img-fluid p-2 testimonial-img testimonial-img-vert"
+            />
 
             <a href="../html/buildings-zaza-house.html">
-              <p class="p-2 title-small title-small-testimonial text-center text-xs-start"> Zaza House (2023) </p>
+              <p
+                class="p-2 title-small title-small-testimonial text-center text-xs-start"
+              >
+                Zaza House (2023)
+              </p>
             </a>
           </div>
         </div>
@@ -474,7 +499,9 @@
               class="img-fluid ft-logo my-5"
             />
           </div>
-          <div class="col footer-nav-container text-lowercase d-flex justify-content-center">
+          <div
+            class="col footer-nav-container text-lowercase d-flex justify-content-center"
+          >
             <nav id="footer-navigation">
               <h4 class="">Navigation</h4>
               <ul class="list-inline d-flex flex-column">
@@ -491,8 +518,8 @@
                   <a href="./about.html" class="footer-a2">about</a>
                 </li>
                 <li class="list-inline-item d-flex flex-column">
-                  <a href="#" class="footer-a1">Method</a>
-                  <a href="#" class="footer-a2">Method</a>
+                  <a href="./our-method.html" class="footer-a1">Method</a>
+                  <a href="./our-method.html" class="footer-a2">Method</a>
                 </li>
                 <li class="list-inline-item d-flex flex-column">
                   <a href="./services.html" class="footer-a1">Services</a>
