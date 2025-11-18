@@ -21,7 +21,7 @@ body {
 
 #top-nav {
     height: 10vh;
-    color: #080807;
+    color: #24241f;
     display: flex;
 }
 
@@ -225,7 +225,39 @@ body {
   border-radius: 5px;
 }
 
-/* large screens contact form */
+/* cookie banner */
+
+
+
+
+.cookie-banner {
+  width: auto; 
+  height: 25%;
+  background-color: #080807;  
+  color: white;
+  padding: 25px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+  position: fixed;     
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  border-radius: 10px;
+  z-index: 9999;
+}
+
+.cookie-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+
+.cookie-banner .btn {
+  background-color: #ffffff;
+  color:#080807;
+}
+
+
+/* contact form em Large Screens */
 
  @media only screen and (min-width: 1550px) {
 
@@ -323,7 +355,7 @@ footer address p, footer address p a {
   }
 
   #top-nav-links {
-    display: none ;
+    display: none !important;
   }
 
 .head-logo-sm {
@@ -413,7 +445,7 @@ footer address p, footer address p a {
   /* hero / gen nav */
   
   #top-nav-links {
-    display: none ;
+    display: none !important;
   }
   
   .head-logo-lg{

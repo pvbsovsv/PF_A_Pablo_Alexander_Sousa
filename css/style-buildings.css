@@ -1,6 +1,6 @@
 
 
-/* SECTION >  buildings intro*/
+/* buildings intro*/
 
 #buildings-intro {
 
@@ -58,7 +58,7 @@
 
 
 
-/* BREAKPOINT MOBILE  */
+/* BREAKPOINT tablet  */
 
 
 
@@ -88,6 +88,10 @@
 }
 
 }
+
+
+/* BREAKPOINT MOBILE  */
+
 
 @media only screen and (max-width: 600px) {
  

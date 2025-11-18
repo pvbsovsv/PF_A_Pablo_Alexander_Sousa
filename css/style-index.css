@@ -104,7 +104,7 @@
   line-height: 1.6;
 }
 
-/* incremented ol for each li inputted */
+/* ol incrementado para cada li que se adicione ao code */
 
 .custom-ol {
   counter-reset: section;
