@@ -109,9 +109,11 @@
           id="contact-form"
           class="container-fluid bg-altdark p-3 p-md-5 d-flex flex-column"
         >
-        <!-- header row -->
+          <!-- header row -->
           <div class="row mb-4">
-            <div class="col-12 d-flex align-items-center justify-content-between">
+            <div
+              class="col-12 d-flex align-items-center justify-content-between"
+            >
               <h2 class="">Project enquiry</h2>
               <button class="btn btn-sm close-button-form">Close</button>
             </div>
@@ -119,23 +121,23 @@
           <div class="d-flex flex-column justify-content-between flex-grow-1">
             <!-- description row -->
             <div class="row">
-              <div class="col-12 col-lg-8 contact-paragraph my-1">
+              <div class="col-12 col-lg-8 mt-5 mt-lg-0 contact-paragraph my-1">
                 <p>
-                  To begin, please tell us a bit about your project. This helps us
-                  ensure our building services align with your needs. Once we’ve
-                  reviewed the details, our team will be in touch within 5
+                  To begin, please tell us a bit about your project. This helps
+                  us ensure our building services align with your needs. Once
+                  we’ve reviewed the details, our team will be in touch within 5
                   business days to outline the next steps. Make sure to include
                   important details in your proposal.
                 </p>
               </div>
             </div>
-  
+
             <!-- form row -->
             <div class="row d-flex">
               <div class="col-12">
                 <form name="contact-form" method="post">
-                  <fieldset class="mb-4">
-                    <legend class="mb-3">Your Details</legend>
+                  <fieldset class="mb-2">
+                    <legend class="mb-2">Your Details</legend>
                     <label for="name">Name</label>
                     <input
                       type="text"
@@ -162,29 +164,26 @@
                     />
                   </fieldset>
                   <fieldset>
-                    <legend class="mb-4">Tells us about your project</legend>
+                    <legend class="mb-2">Tells us about your project</legend>
                     <textarea
                       name="project"
                       id="project"
                       placeholder="What's your idea?"
                     ></textarea>
                   </fieldset>
-                  <div class="row d-flex justify-content-center mt-3 align-self-end">
+                  <div
+                    class="row d-flex justify-content-center mt-3 align-self-end"
+                  >
                     <div class="col-12">
                       <p id="status" class=""></p>
                     </div>
-                    <div class="col-12">
-                      <button
-                        type="submit"
-                        id="form-submitBtn"
-                        class="btn"
-                      >
+                    <div class="col-12 mb-4">
+                      <button type="submit" id="form-submitBtn" class="btn">
                         Send Enquiry
                       </button>
                     </div>
                   </div>
                 </form>
-
               </div>
             </div>
           </div>
